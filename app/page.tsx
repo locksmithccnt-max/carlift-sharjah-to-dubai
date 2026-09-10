@@ -14,7 +14,7 @@ import { WHATSAPP_NUMBER, PHONE_NUMBER } from "@/data/routes"
 import { IMAGES } from "@/data/images"
 
 export const metadata: Metadata = {
-  title: "Car Lift Sharjah to Dubai | From AED 500/day | M1 CarLift UAE",
+  title: "Car Lift Sharjah to Dubai | From AED 500/day | M1 Group",
   description:
     "Daily car lift from Sharjah to Dubai from AED 500/day or AED 5,000/month. Business Bay, JLT, DIP, Media City covered. Ladies option, verified drivers. Book on WhatsApp.",
   alternates: { canonical: "https://carlift-sharjahtodubai.com" },

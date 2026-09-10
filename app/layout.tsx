@@ -19,8 +19,8 @@ const DOMAIN = "https://carlift-sharjahtodubai.com"
 
 export const metadata: Metadata = {
   title: {
-    default: "Car Lift Sharjah to Dubai | AED 500/day | M1 CarLift UAE",
-    template: "%s | M1 CarLift UAE",
+    default: "Car Lift Sharjah to Dubai | AED 500/day | M1 Group",
+    template: "%s | M1 Group",
   },
   description:
     "Daily car lift from Sharjah to Dubai from AED 500/day or AED 5,000/month. Business Bay, JLT, DIP, Media City covered. Ladies-only option, verified drivers. Book on WhatsApp.",
@@ -45,8 +45,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_AE",
     url: DOMAIN,
-    siteName: "M1 CarLift UAE",
-    title: "Car Lift Sharjah to Dubai | AED 500/day | M1 CarLift UAE",
+    siteName: "M1 Group",
+    title: "Car Lift Sharjah to Dubai | AED 500/day | M1 Group",
     description:
       "Daily car lift Sharjah–Dubai from AED 500/day. Fixed monthly AED 5,000. Verified drivers, ladies-only option. Book on WhatsApp.",
     images: [
@@ -54,13 +54,13 @@ export const metadata: Metadata = {
         url: "/images/car-lift-sharjah-to-dubai-m1-coaster-bus.webp",
         width: 1080,
         height: 1080,
-        alt: "M1 CarLift UAE — Toyota Coaster minibus for Sharjah to Dubai car lift service",
+        alt: "M1 Group — Toyota Coaster minibus for Sharjah to Dubai car lift service",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Car Lift Sharjah to Dubai | M1 CarLift UAE",
+    title: "Car Lift Sharjah to Dubai | M1 Group",
     description: "Daily car lift Sharjah to Dubai — AED 500/day or AED 5,000/month. Ladies option. Book on WhatsApp.",
     images: ["/images/car-lift-sharjah-to-dubai-m1-coaster-bus.webp"],
   },

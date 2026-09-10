@@ -7,9 +7,9 @@ import { BASE_URL, WHATSAPP_NUMBER, PHONE_NUMBER } from "@/data/routes"
 import { IMAGES } from "@/data/images"
 
 export const metadata: Metadata = {
-  title: "About M1 CarLift UAE | Sharjah–Dubai Car Lift Since 2020 | Taimoor Mughal",
+  title: "About Taimoor Carlift M1 Group | Sharjah–Dubai Car Lift Since 2020 | Taimoor Mughal",
   description:
-    "M1 CarLift UAE founded by Taimoor Mughal in 2020. Toyota Coaster & Mitsubishi Fuso Rosa fleet. Verified drivers, ladies-only option, fixed pricing from AED 22/day.",
+    "Taimoor Carlift M1 Group founded by Taimoor Mughal in 2020. Toyota Coaster & Mitsubishi Fuso Rosa fleet. Verified drivers, ladies-only option, fixed pricing from AED 22/day.",
   alternates: { canonical: `${BASE_URL}/about` },
 }
 
@@ -28,9 +28,9 @@ export default function AboutPage() {
         {/* Owner + brand intro */}
         <div className="grid md:grid-cols-2 gap-10 items-center mb-14">
           <div>
-            <h1 className="text-4xl font-bold text-white mb-4">About M1 CarLift UAE</h1>
+            <h1 className="text-4xl font-bold text-white mb-4">About Taimoor Carlift M1 Group</h1>
             <p className="text-[#9ca3af] text-base leading-relaxed mb-4">
-              M1 CarLift UAE was founded by <strong className="text-white">Taimoor Mughal</strong> and has been operating daily commuter car lifts on the Sharjah–Dubai corridor since 2020. What started as a small shared-ride network has grown into one of the most trusted daily commute services in the UAE, covering routes across Sharjah, Dubai, Ajman, Abu Dhabi, Ras Al Khaimah, and Al Ain.
+              Taimoor Carlift M1 Group was founded by <strong className="text-white">Taimoor Mughal</strong> and has been operating daily commuter car lifts on the Sharjah–Dubai corridor since 2020. What started as a small shared-ride network has grown into one of the most trusted daily commute services in the UAE, covering routes across Sharjah, Dubai, Ajman, Abu Dhabi, Ras Al Khaimah, and Al Ain.
             </p>
             <p className="text-[#9ca3af] text-sm leading-relaxed">
               Our fleet includes Toyota Coaster and Mitsubishi Fuso Rosa minibuses — inspected, AC-comfortable, and branded with the M1 Smartline livery.

@@ -7,7 +7,7 @@ import { GLOBAL_FAQS, MONTHLY_FAQS } from "@/data/faqs"
 import { BASE_URL } from "@/data/routes"
 
 export const metadata: Metadata = {
-  title: "Car Lift FAQ | Pricing, Booking & Routes | M1 CarLift UAE",
+  title: "Car Lift FAQ | Pricing, Booking & Routes | M1 Group",
   description:
     "Answers to common car lift questions: pricing from AED 22/day, how to book, ladies option, monthly plans, routes covered across Sharjah, Dubai, and UAE.",
   alternates: { canonical: `${BASE_URL}/faq` },

@@ -9,7 +9,7 @@ import { BASE_URL, WHATSAPP_NUMBER } from "@/data/routes"
 import { IMAGES } from "@/data/images"
 
 export const metadata: Metadata = {
-  title: "Carpool Dubai Sharjah | AED 500/day or AED 5,000/month | M1 CarLift UAE",
+  title: "Carpool Dubai Sharjah | AED 500/day or AED 5,000/month | M1 Group",
   description:
     "Carpool from Sharjah to Dubai from AED 500/day or AED 5,000/month. Share an AC-comfortable minibus with verified co-passengers. Fixed price, no surge. Book on WhatsApp.",
   alternates: { canonical: `${BASE_URL}/carpool` },

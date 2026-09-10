@@ -37,7 +37,7 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-10">
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="font-bold text-lg text-white">
-              Car Lift <span className="text-[#f59e0b]">UAE</span>
+              Taimoor Carlift <span className="text-[#f59e0b]">M1 Group</span>
             </Link>
             <p className="mt-3 text-sm text-[#9ca3af] leading-relaxed max-w-xs">
               Reliable daily car lift and shared ride service on Sharjah–Dubai and intercity UAE routes. Fixed monthly pricing, verified drivers, ladies option.

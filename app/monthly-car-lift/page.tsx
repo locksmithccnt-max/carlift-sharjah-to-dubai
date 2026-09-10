@@ -10,7 +10,7 @@ import { ROUTES, BASE_URL, WHATSAPP_NUMBER } from "@/data/routes"
 import { IMAGES } from "@/data/images"
 
 export const metadata: Metadata = {
-  title: "Monthly Car Lift Dubai Sharjah | AED 5,000/month | M1 CarLift UAE",
+  title: "Monthly Car Lift Dubai Sharjah | AED 5,000/month | M1 Group",
   description:
     "Monthly car lift Sharjah to Dubai — AED 5,000/month (22 working days). No rebooking, fixed price, no surge, verified drivers. WhatsApp to book your monthly plan today.",
   alternates: { canonical: `${BASE_URL}/monthly-car-lift` },

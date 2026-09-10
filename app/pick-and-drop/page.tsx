@@ -9,7 +9,7 @@ import { BASE_URL, WHATSAPP_NUMBER } from "@/data/routes"
 import { IMAGES } from "@/data/images"
 
 export const metadata: Metadata = {
-  title: "Pick and Drop Service Dubai & Sharjah | AED 500/day | M1 CarLift UAE",
+  title: "Pick and Drop Service Dubai & Sharjah | AED 500/day | M1 Group",
   description:
     "Door-to-door pick and drop service in Dubai and Sharjah. Fixed schedule, verified drivers. AED 500/day or AED 5,000/month. No surge pricing. Book on WhatsApp.",
   alternates: { canonical: `${BASE_URL}/pick-and-drop` },

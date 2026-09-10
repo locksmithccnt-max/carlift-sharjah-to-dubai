@@ -7,7 +7,7 @@ import { faqSchema, breadcrumbSchema } from "@/lib/schema"
 import { BASE_URL, WHATSAPP_NUMBER } from "@/data/routes"
 
 export const metadata: Metadata = {
-  title: "Ladies Car Lift Dubai Sharjah | Women-Only Car Lift UAE | M1 CarLift",
+  title: "Ladies Car Lift Dubai Sharjah | Women-Only Car Lift UAE | M1 Group",
   description:
     "Ladies-only car lift Sharjah to Dubai from AED 500/day or AED 5,000/month. Female drivers, verified & background-checked. Safe, AC-comfortable. Book on WhatsApp.",
   alternates: { canonical: `${BASE_URL}/ladies-car-lift` },
