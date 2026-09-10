@@ -12,7 +12,7 @@ export function organizationSchema() {
     telephone: PHONE_NUMBER,
     areaServed: ["Sharjah", "Dubai", "Ajman", "Abu Dhabi", "Ras Al Khaimah", "Al Ain"],
     sameAs: [
-      "https://wa.me/971501234567",
+      "https://wa.me/971565828471",
     ],
   }
 }
@@ -27,7 +27,7 @@ export function localBusinessSchema() {
       "Daily car lift and shared ride service operating on Sharjah–Dubai corridor and intercity UAE routes. Fixed monthly pricing, verified drivers, ladies-only option available.",
     url: BASE_URL,
     telephone: PHONE_NUMBER,
-    priceRange: "AED 25 – AED 1,100/month",
+    priceRange: "AED 500 – AED 5,000/month",
     currenciesAccepted: "AED",
     paymentAccepted: "Cash, Bank Transfer",
     areaServed: [

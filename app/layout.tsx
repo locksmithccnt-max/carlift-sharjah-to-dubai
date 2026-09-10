@@ -14,7 +14,8 @@ const inter = Inter({
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? ""
 const META_PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID ?? ""
-const GSC_TAG = process.env.NEXT_PUBLIC_GSC_TAG ?? ""
+
+const DOMAIN = "https://carlift-sharjahtodubai.com"
 
 export const metadata: Metadata = {
   title: {
@@ -27,8 +28,9 @@ export const metadata: Metadata = {
     "car lift", "car lift dubai", "car lift sharjah to dubai",
     "car lift dubai monthly", "car lift for ladies", "carpool dubai",
     "pick and drop service dubai", "car lift business bay",
+    "carlift sharjah to dubai", "sharjah dubai car lift",
   ],
-  metadataBase: new URL("https://carlift.ae"),
+  metadataBase: new URL(DOMAIN),
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
@@ -42,31 +44,57 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_AE",
-    url: "https://carlift.ae",
-    siteName: "Car Lift UAE",
+    url: DOMAIN,
+    siteName: "M1 CarLift UAE",
     title: "Car Lift Sharjah to Dubai | AED 500/day | M1 CarLift UAE",
     description:
-      "Daily car lift Sharjah–Dubai from AED 500/day. Fixed monthly pricing AED 5,000, verified drivers, ladies-only option. Book on WhatsApp.",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Car Lift UAE" }],
+      "Daily car lift Sharjah–Dubai from AED 500/day. Fixed monthly AED 5,000. Verified drivers, ladies-only option. Book on WhatsApp.",
+    images: [
+      {
+        url: "/images/car-lift-sharjah-to-dubai-m1-coaster-bus.webp",
+        width: 1080,
+        height: 1080,
+        alt: "M1 CarLift UAE — Toyota Coaster minibus for Sharjah to Dubai car lift service",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Car Lift Dubai Sharjah | Car Lift UAE",
-    description: "Daily car lift from Sharjah to Dubai from AED 500/day or AED 5,000/month. Ladies option available.",
+    title: "Car Lift Sharjah to Dubai | M1 CarLift UAE",
+    description: "Daily car lift Sharjah to Dubai — AED 500/day or AED 5,000/month. Ladies option. Book on WhatsApp.",
+    images: ["/images/car-lift-sharjah-to-dubai-m1-coaster-bus.webp"],
   },
-  robots: { index: true, follow: true },
-  alternates: { canonical: "https://carlift.ae" },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  alternates: {
+    canonical: DOMAIN,
+    languages: {
+      "en-AE": DOMAIN,
+      "en": DOMAIN,
+    },
+  },
   verification: {
     google: "44M3qJn7y4xzDZdipEednhKLgiiRmRZS2fOkUY3Nlfc",
   },
+  category: "transportation",
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={inter.variable}>
       <head>
-        {GSC_TAG && <meta name="google-site-verification" content={GSC_TAG} />}
-        <link rel="preconnect" href="https://wa.me" />
+        <link rel="dns-prefetch" href="//wa.me" />
+        <link rel="dns-prefetch" href="//api.whatsapp.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
       <body className="flex flex-col min-h-screen bg-[#0a0a0a] text-[#f0f0f2] pb-[68px] md:pb-0">
         <Header />

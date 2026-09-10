@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "Car Lift Sharjah to Dubai | From AED 500/day | M1 CarLift UAE",
   description:
     "Daily car lift from Sharjah to Dubai from AED 500/day or AED 5,000/month. Business Bay, JLT, DIP, Media City covered. Ladies option, verified drivers. Book on WhatsApp.",
-  alternates: { canonical: "https://carlift.ae" },
+  alternates: { canonical: "https://carlift-sharjahtodubai.com" },
 }
 
 const POPULAR_ROUTES = [
