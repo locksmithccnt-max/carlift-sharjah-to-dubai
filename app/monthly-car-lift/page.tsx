@@ -10,9 +10,9 @@ import { ROUTES, BASE_URL, WHATSAPP_NUMBER } from "@/data/routes"
 import { IMAGES } from "@/data/images"
 
 export const metadata: Metadata = {
-  title: "Monthly Car Lift Dubai Sharjah | From AED 500/month | M1 CarLift UAE",
+  title: "Monthly Car Lift Dubai Sharjah | AED 5,000/month | M1 CarLift UAE",
   description:
-    "Monthly car lift Sharjah to Dubai from AED 500/month (22 working days). No rebooking, fixed price, no surge, verified drivers. WhatsApp to book your monthly plan today.",
+    "Monthly car lift Sharjah to Dubai — AED 5,000/month (22 working days). No rebooking, fixed price, no surge, verified drivers. WhatsApp to book your monthly plan today.",
   alternates: { canonical: `${BASE_URL}/monthly-car-lift` },
   keywords: ["car lift dubai monthly", "monthly car lift", "car lift dubai to abu dhabi monthly", "monthly carpool dubai"],
 }
@@ -21,15 +21,15 @@ const FAQS = [
   ...MONTHLY_FAQS,
   {
     q: "How much is a monthly car lift from Sharjah to Dubai?",
-    a: "Monthly car lift from Sharjah to Dubai starts at AED 500 for one-way service covering 22 working days. Two-way (morning + evening) monthly packages start from AED 900.",
+    a: "Monthly car lift from Sharjah to Dubai is AED 5,000 for one-way service covering 22 working days. Contact us for two-way (morning + evening) monthly pricing.",
   },
   {
     q: "What is a monthly car lift in Dubai?",
-    a: "A monthly car lift is a fixed-price subscription where you pay once a month and travel every working day without rebooking. Your driver picks you up at an agreed time each morning, drops you at your workplace, and (if subscribed to two-way) returns you in the evening.",
+    a: "A monthly car lift is a fixed-price subscription where you pay once a month and travel every working day without rebooking. Your driver picks you up at an agreed time each morning and drops you at your workplace.",
   },
   {
     q: "Is the monthly car lift cheaper than daily rideshare?",
-    a: "Significantly cheaper. A daily Careem from Sharjah to Business Bay averages AED 50–70 per trip. With 22 working days, that's AED 1,100–1,540/month. Our monthly car lift on the same route is AED 570 — a saving of AED 530–970 per month.",
+    a: "Yes. At AED 5,000/month for 22 working days, you get a fixed, comfortable, door-to-door commute without rebooking — versus daily rideshare uncertainty and surge pricing.",
   },
 ]
 
@@ -64,7 +64,7 @@ export default function MonthlyCarLiftPage() {
           <div>
             <h1 className="text-4xl font-bold text-white mb-3">Monthly Car Lift Dubai & UAE</h1>
             <p className="text-base text-[#9ca3af] leading-relaxed mb-6 border-l-2 border-[#f59e0b] pl-4">
-              Monthly car lift subscription from Sharjah to Dubai starts at AED 500 per month for 22 working days of one-way transport. Fixed price, no surge, no rebooking — your driver picks you up every morning at the agreed time.
+              Monthly car lift subscription from Sharjah to Dubai is AED 5,000 per month for 22 working days of one-way transport. Fixed price, no surge, no rebooking — your driver picks you up every morning at the agreed time.
             </p>
 
             <div className="space-y-3 mb-6">

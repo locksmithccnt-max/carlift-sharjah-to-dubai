@@ -10,9 +10,9 @@ import { getRouteBySlug, WHATSAPP_NUMBER, BASE_URL } from "@/data/routes"
 import { IMAGES } from "@/data/images"
 
 export const metadata: Metadata = {
-  title: "Car Lift Sharjah to Dubai | AED 22/day or AED 500/month | M1 CarLift",
+  title: "Car Lift Sharjah to Dubai | AED 500/day or AED 5,000/month | M1 CarLift",
   description:
-    "Car lift Sharjah to Dubai from AED 22/day or AED 500/month (22 working days). Al Nahda, Muwaileh, Al Taawun pickup — JLT, Business Bay, Media City drop-off. Ladies option, verified drivers.",
+    "Car lift Sharjah to Dubai from AED 500/day or AED 5,000/month (22 working days). Al Nahda, Muwaileh, Al Taawun pickup — JLT, Business Bay, Media City drop-off. Ladies option, verified drivers.",
   alternates: { canonical: `${BASE_URL}/sharjah-to-dubai` },
   keywords: ["car lift sharjah to dubai", "dubai to sharjah car lift", "sharjah dubai carpool", "car lift sharjah dubai monthly"],
 }
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const FAQS = [
   {
     q: "How much is a car lift from Sharjah to Dubai?",
-    a: "A daily car lift from Sharjah to Dubai starts from AED 22 per trip. Monthly packages covering 22 working days start from AED 500 one-way. Two-way monthly packages start from AED 900.",
+    a: "A daily car lift from Sharjah to Dubai starts from AED 500 per trip. Monthly packages covering 22 working days are AED 5,000 one-way. Contact us for two-way monthly pricing.",
   },
   {
     q: "Is there a car lift service from Dubai to Sharjah?",
@@ -45,15 +45,15 @@ const FAQS = [
 ]
 
 const DUBAI_DISTRICTS = [
-  { name: "Business Bay", slug: "sharjah-to-business-bay", price: 570 },
-  { name: "JLT", slug: "sharjah-to-jlt", price: 600 },
-  { name: "Al Quoz", slug: "sharjah-to-al-quoz", price: 550 },
-  { name: "Al Barsha", slug: "sharjah-to-al-barsha", price: 580 },
-  { name: "DIP", slug: "sharjah-to-dip", price: 620 },
-  { name: "Jebel Ali", slug: "sharjah-to-jebel-ali", price: 650 },
-  { name: "Internet City", slug: "sharjah-to-internet-city", price: 600 },
-  { name: "Media City", slug: "sharjah-to-media-city", price: 600 },
-  { name: "Silicon Oasis", slug: "sharjah-to-silicon-oasis", price: 520 },
+  { name: "Business Bay", slug: "sharjah-to-business-bay", price: 5000 },
+  { name: "JLT", slug: "sharjah-to-jlt", price: 5000 },
+  { name: "Al Quoz", slug: "sharjah-to-al-quoz", price: 5000 },
+  { name: "Al Barsha", slug: "sharjah-to-al-barsha", price: 5000 },
+  { name: "DIP", slug: "sharjah-to-dip", price: 5000 },
+  { name: "Jebel Ali", slug: "sharjah-to-jebel-ali", price: 5000 },
+  { name: "Internet City", slug: "sharjah-to-internet-city", price: 5000 },
+  { name: "Media City", slug: "sharjah-to-media-city", price: 5000 },
+  { name: "Silicon Oasis", slug: "sharjah-to-silicon-oasis", price: 5000 },
 ]
 
 const mainRoute = getRouteBySlug("sharjah-to-dubai")
@@ -93,13 +93,13 @@ export default function SharjahToDubaiPage() {
 
             {/* AEO-optimised direct answer */}
             <p className="text-base text-[#9ca3af] leading-relaxed mb-6 border-l-2 border-[#f59e0b] pl-4">
-              Daily car lift from Sharjah to Dubai starts from AED 22 per trip or AED 500 per month for 22 working days. We cover all major Sharjah pickup areas (Al Nahda, Muwaileh, Al Taawun) and all Dubai districts. Ladies-only option available with female drivers.
+              Daily car lift from Sharjah to Dubai starts from AED 500 per trip or AED 5,000 per month for 22 working days. We cover all major Sharjah pickup areas (Al Nahda, Muwaileh, Al Taawun) and all Dubai districts. Ladies-only option available with female drivers.
             </p>
 
             <div className="grid grid-cols-2 gap-3 mb-6">
               {[
-                { label: "From (daily)", value: "AED 22" },
-                { label: "Monthly (one-way)", value: "AED 500" },
+                { label: "From (daily)", value: "AED 500" },
+                { label: "Monthly (one-way)", value: "AED 5,000" },
                 { label: "Duration", value: "30–55 min" },
                 { label: "Distance", value: "20–35 km" },
               ].map((d) => (

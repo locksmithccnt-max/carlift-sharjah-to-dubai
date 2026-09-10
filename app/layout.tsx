@@ -18,11 +18,11 @@ const GSC_TAG = process.env.NEXT_PUBLIC_GSC_TAG ?? ""
 
 export const metadata: Metadata = {
   title: {
-    default: "Car Lift Sharjah to Dubai | From AED 22/day | M1 CarLift UAE",
+    default: "Car Lift Sharjah to Dubai | AED 500/day | M1 CarLift UAE",
     template: "%s | M1 CarLift UAE",
   },
   description:
-    "Daily car lift from Sharjah to Dubai from AED 22/day or AED 500/month. Business Bay, JLT, DIP, Media City covered. Ladies-only option, verified drivers. Book on WhatsApp.",
+    "Daily car lift from Sharjah to Dubai from AED 500/day or AED 5,000/month. Business Bay, JLT, DIP, Media City covered. Ladies-only option, verified drivers. Book on WhatsApp.",
   keywords: [
     "car lift", "car lift dubai", "car lift sharjah to dubai",
     "car lift dubai monthly", "car lift for ladies", "carpool dubai",
@@ -44,18 +44,21 @@ export const metadata: Metadata = {
     locale: "en_AE",
     url: "https://carlift.ae",
     siteName: "Car Lift UAE",
-    title: "Car Lift Sharjah to Dubai | From AED 22/day | M1 CarLift UAE",
+    title: "Car Lift Sharjah to Dubai | AED 500/day | M1 CarLift UAE",
     description:
-      "Daily car lift Sharjah–Dubai from AED 22/day. Fixed monthly pricing from AED 500, verified drivers, ladies-only option. Book on WhatsApp.",
+      "Daily car lift Sharjah–Dubai from AED 500/day. Fixed monthly pricing AED 5,000, verified drivers, ladies-only option. Book on WhatsApp.",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Car Lift UAE" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Car Lift Dubai Sharjah | Car Lift UAE",
-    description: "Daily car lift from Sharjah to Dubai from AED 22/day or AED 500/month. Ladies option available.",
+    description: "Daily car lift from Sharjah to Dubai from AED 500/day or AED 5,000/month. Ladies option available.",
   },
   robots: { index: true, follow: true },
   alternates: { canonical: "https://carlift.ae" },
+  verification: {
+    google: "44M3qJn7y4xzDZdipEednhKLgiiRmRZS2fOkUY3Nlfc",
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

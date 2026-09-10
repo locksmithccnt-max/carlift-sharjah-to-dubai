@@ -9,9 +9,9 @@ import { BASE_URL, WHATSAPP_NUMBER } from "@/data/routes"
 import { IMAGES } from "@/data/images"
 
 export const metadata: Metadata = {
-  title: "Pick and Drop Service Dubai & Sharjah | From AED 22 | M1 CarLift UAE",
+  title: "Pick and Drop Service Dubai & Sharjah | AED 500/day | M1 CarLift UAE",
   description:
-    "Door-to-door pick and drop service in Dubai and Sharjah. Fixed schedule, verified drivers. From AED 22/trip or AED 500/month. No surge pricing. Book on WhatsApp.",
+    "Door-to-door pick and drop service in Dubai and Sharjah. Fixed schedule, verified drivers. AED 500/day or AED 5,000/month. No surge pricing. Book on WhatsApp.",
   alternates: { canonical: `${BASE_URL}/pick-and-drop` },
   keywords: ["pick and drop service", "pick and drop service near me", "pick and drop dubai", "pick and drop sharjah"],
 }
@@ -27,7 +27,7 @@ const FAQS = [
   },
   {
     q: "How much does pick and drop service cost in Dubai?",
-    a: "Pick and drop from Sharjah to Dubai starts from AED 22 per trip. Monthly pick and drop subscriptions start from AED 500 for 22 working days. Contact us for a custom quote based on your specific route.",
+    a: "Pick and drop from Sharjah to Dubai starts from AED 500 per trip. Monthly pick and drop subscriptions are AED 5,000 for 22 working days. Contact us for a custom quote based on your specific route.",
   },
   {
     q: "Do you offer pick and drop for school children?",

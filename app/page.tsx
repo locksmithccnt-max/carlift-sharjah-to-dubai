@@ -14,19 +14,19 @@ import { WHATSAPP_NUMBER, PHONE_NUMBER } from "@/data/routes"
 import { IMAGES } from "@/data/images"
 
 export const metadata: Metadata = {
-  title: "Car Lift Sharjah to Dubai | From AED 22/day | M1 CarLift UAE",
+  title: "Car Lift Sharjah to Dubai | From AED 500/day | M1 CarLift UAE",
   description:
-    "Daily & monthly car lift from Sharjah to Dubai from AED 22/day or AED 500/month. Business Bay, JLT, DIP, Media City covered. Ladies option, verified drivers. Book on WhatsApp.",
+    "Daily car lift from Sharjah to Dubai from AED 500/day or AED 5,000/month. Business Bay, JLT, DIP, Media City covered. Ladies option, verified drivers. Book on WhatsApp.",
   alternates: { canonical: "https://carlift.ae" },
 }
 
 const POPULAR_ROUTES = [
-  { from: "Sharjah", to: "Business Bay", price: 570, slug: "/routes/sharjah-to-business-bay", vol: "480 searches/mo" },
-  { from: "Sharjah", to: "Dubai (general)", price: 500, slug: "/sharjah-to-dubai", vol: "880 searches/mo" },
-  { from: "Sharjah", to: "JLT", price: 600, slug: "/routes/sharjah-to-jlt", vol: "High demand" },
-  { from: "Sharjah", to: "DIP", price: 620, slug: "/routes/sharjah-to-dip", vol: "" },
-  { from: "Ajman", to: "Dubai", price: 600, slug: "/routes/ajman-to-dubai", vol: "" },
-  { from: "Dubai", to: "Al Ain", price: 750, slug: "/routes/dubai-to-al-ain", vol: "" },
+  { from: "Sharjah", to: "Business Bay", price: 5000, slug: "/routes/sharjah-to-business-bay", vol: "480 searches/mo" },
+  { from: "Sharjah", to: "Dubai (general)", price: 5000, slug: "/sharjah-to-dubai", vol: "880 searches/mo" },
+  { from: "Sharjah", to: "JLT", price: 5000, slug: "/routes/sharjah-to-jlt", vol: "High demand" },
+  { from: "Sharjah", to: "DIP", price: 5000, slug: "/routes/sharjah-to-dip", vol: "" },
+  { from: "Ajman", to: "Dubai", price: 5000, slug: "/routes/ajman-to-dubai", vol: "" },
+  { from: "Dubai", to: "Al Ain", price: 5000, slug: "/routes/dubai-to-al-ain", vol: "" },
 ]
 
 export default function HomePage() {
@@ -60,7 +60,7 @@ export default function HomePage() {
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-[1.1] tracking-tight mb-4">
               Car Lift<br />
               <span className="text-[#f59e0b]">Sharjah ↔ Dubai</span><br />
-              <span className="text-[#9ca3af] text-3xl sm:text-4xl font-semibold">from AED 22/day</span>
+              <span className="text-[#9ca3af] text-3xl sm:text-4xl font-semibold">from AED 500/day</span>
             </h1>
 
             <p className="text-base sm:text-lg text-[#9ca3af] max-w-xl mb-8 leading-relaxed">
@@ -202,11 +202,11 @@ export default function HomePage() {
             </p>
             <div className="space-y-3">
               {[
-                { route: "Sharjah → Dubai", daily: 22, monthly: 500 },
-                { route: "Sharjah → Business Bay", daily: 26, monthly: 570 },
-                { route: "Sharjah → JLT", daily: 28, monthly: 600 },
-                { route: "Ajman → Dubai", daily: 27, monthly: 600 },
-                { route: "Dubai → Al Ain", daily: 34, monthly: 750 },
+                { route: "Sharjah → Dubai", daily: 500, monthly: 5000 },
+                { route: "Sharjah → Business Bay", daily: 530, monthly: 5000 },
+                { route: "Sharjah → JLT", daily: 550, monthly: 5000 },
+                { route: "Ajman → Dubai", daily: 550, monthly: 5000 },
+                { route: "Dubai → Al Ain", daily: 600, monthly: 5000 },
               ].map((p) => (
                 <div key={p.route} className="flex items-center justify-between py-3 border-b border-[#252629]">
                   <span className="text-sm text-[#9ca3af]">{p.route}</span>

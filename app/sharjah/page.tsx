@@ -6,7 +6,7 @@ import { BASE_URL } from "@/data/routes"
 export const metadata: Metadata = {
   title: "Car Lift Sharjah | To Dubai, JLT, Business Bay | M1 CarLift UAE",
   description:
-    "Car lift from Sharjah to Dubai from AED 22/day, Business Bay AED 26/day, JLT AED 28/day. All Sharjah areas covered. Monthly from AED 500. Ladies option. Book on WhatsApp.",
+    "Car lift from Sharjah to Dubai from AED 500/day, Business Bay AED 530/day, JLT AED 550/day. All Sharjah areas covered. Monthly AED 5,000. Ladies option. Book on WhatsApp.",
   alternates: { canonical: `${BASE_URL}/sharjah` },
   keywords: ["car lift sharjah", "car lift in sharjah", "sharjah car lift service"],
 }
@@ -22,7 +22,7 @@ const FAQS = [
   },
   {
     q: "How much is car lift from Sharjah?",
-    a: "Car lift from Sharjah depends on your destination: Sharjah to Dubai from AED 22/day, Sharjah to Business Bay from AED 26/day, Sharjah to JLT from AED 28/day. Monthly plans start from AED 500.",
+    a: "Car lift from Sharjah depends on your destination: Sharjah to Dubai from AED 500/day, Sharjah to Business Bay from AED 530/day, Sharjah to JLT from AED 550/day. Monthly plans are AED 5,000.",
   },
 ]
 
