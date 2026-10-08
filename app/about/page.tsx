@@ -9,7 +9,7 @@ import { IMAGES } from "@/data/images"
 export const metadata: Metadata = {
   title: "About M1 CarLift UAE | Sharjah–Dubai Car Lift Since 2020 | Taimoor Mughal",
   description:
-    "M1 CarLift UAE founded by Taimoor Mughal in 2020. Toyota Coaster & Mitsubishi Fuso Rosa fleet. Verified drivers, ladies-only option, fixed pricing from AED 22/day.",
+    "M1 CarLift UAE founded by Taimoor Mughal in 2020. Modern sedan fleet. Verified drivers, ladies-only option, fixed pricing from AED 22/day.",
   alternates: { canonical: `${BASE_URL}/about` },
 }
 
@@ -33,7 +33,7 @@ export default function AboutPage() {
               M1 CarLift UAE was founded by <strong className="text-white">Taimoor Mughal</strong> and has been operating daily commuter car lifts on the Sharjah–Dubai corridor since 2020. What started as a small shared-ride network has grown into one of the most trusted daily commute services in the UAE, covering routes across Sharjah, Dubai, Ajman, Abu Dhabi, Ras Al Khaimah, and Al Ain.
             </p>
             <p className="text-[#9ca3af] text-sm leading-relaxed">
-              Our fleet includes Toyota Coaster and Mitsubishi Fuso Rosa minibuses — inspected, AC-comfortable, and branded with the M1 Smartline livery.
+              Our fleet consists of clean, air-conditioned sedans — inspected, reliable, and driven by verified drivers.
             </p>
           </div>
           <div className="flex flex-col gap-4">
@@ -53,12 +53,12 @@ export default function AboutPage() {
         {/* Fleet photos */}
         <div className="grid grid-cols-2 gap-3 mb-12">
           <Image
-            {...IMAGES.coasterBus}
+            {...IMAGES.heroCar}
             className="w-full rounded-xl object-cover aspect-video"
             sizes="(max-width:768px) 50vw, 33vw"
           />
           <Image
-            {...IMAGES.fusoBus}
+            {...IMAGES.fleetSedans}
             className="w-full rounded-xl object-cover aspect-video"
             sizes="(max-width:768px) 50vw, 33vw"
           />

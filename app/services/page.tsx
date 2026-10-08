@@ -46,15 +46,15 @@ export default function ServicesPage() {
           All available car lift routes operated by Car Lift UAE. Click any route to see pricing, pickup/drop-off details, and to book.
         </p>
 
-        {/* Fleet showcase */}
+        {/* Car showcase */}
         <div className="grid grid-cols-2 gap-3 mb-10">
           <Image
-            {...IMAGES.vehicleCollage}
+            {...IMAGES.carInterior}
             className="w-full rounded-xl object-cover aspect-video"
             sizes="(max-width:768px) 50vw, 33vw"
           />
           <Image
-            {...IMAGES.affordableService}
+            {...IMAGES.heroCar}
             className="w-full rounded-xl object-cover aspect-video"
             sizes="(max-width:768px) 50vw, 33vw"
           />

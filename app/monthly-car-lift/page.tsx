@@ -1,13 +1,11 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import Image from "next/image"
 import JsonLd from "@/components/JsonLd"
 import FaqAccordion from "@/components/FaqAccordion"
 import LeadForm from "@/components/LeadForm"
 import { faqSchema, breadcrumbSchema } from "@/lib/schema"
 import { MONTHLY_FAQS } from "@/data/faqs"
 import { ROUTES, BASE_URL, WHATSAPP_NUMBER } from "@/data/routes"
-import { IMAGES } from "@/data/images"
 
 export const metadata: Metadata = {
   title: "Monthly Car Lift Dubai Sharjah | From AED 500/month | M1 CarLift UAE",
@@ -96,15 +94,6 @@ export default function MonthlyCarLiftPage() {
           </div>
 
           <LeadForm />
-        </div>
-
-        {/* Bus charter / schedule poster */}
-        <div className="mb-10">
-          <Image
-            {...IMAGES.busCharterSchedule}
-            className="w-full rounded-xl object-cover max-h-96"
-            sizes="(max-width:768px) 100vw, 60vw"
-          />
         </div>
 
         {/* Monthly pricing table */}

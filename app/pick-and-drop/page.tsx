@@ -91,10 +91,10 @@ export default function PickAndDropPage() {
           <LeadForm />
         </div>
 
-        {/* Bus boarding photo */}
+        {/* Car pickup photo */}
         <div className="mb-10">
           <Image
-            {...IMAGES.busBoarding}
+            {...IMAGES.carPickup}
             className="w-full rounded-xl object-cover max-h-72"
             sizes="(max-width:768px) 100vw, 60vw"
           />

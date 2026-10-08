@@ -45,7 +45,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="md:hidden order-first mb-2">
             <Image
-              {...IMAGES.coasterBus}
+              {...IMAGES.heroCar}
               priority
               className="w-full rounded-2xl object-cover"
               sizes="(max-width:768px) 100vw, 50vw"
@@ -100,7 +100,7 @@ export default function HomePage() {
           {/* Hero image — desktop only */}
           <div className="hidden md:block">
             <Image
-              {...IMAGES.coasterBus}
+              {...IMAGES.heroCar}
               priority
               className="w-full rounded-2xl object-cover shadow-2xl shadow-black/50"
               sizes="(max-width:1280px) 50vw, 600px"
@@ -171,20 +171,20 @@ export default function HomePage() {
 
       {/* ── FLEET PHOTOS ── */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
-        <h2 className="text-xl font-bold text-white mb-5">Our Fleet</h2>
+        <h2 className="text-xl font-bold text-white mb-5">Our Cars</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
           <Image
-            {...IMAGES.fusoBus}
+            {...IMAGES.fleetSedans}
             className="w-full rounded-xl object-cover aspect-video"
             sizes="(max-width:768px) 50vw, 33vw"
           />
           <Image
-            {...IMAGES.vehicleCollage}
+            {...IMAGES.carInterior}
             className="w-full rounded-xl object-cover aspect-video"
             sizes="(max-width:768px) 50vw, 33vw"
           />
           <Image
-            {...IMAGES.busBoarding}
+            {...IMAGES.carPickup}
             className="w-full rounded-xl object-cover aspect-video col-span-2 md:col-span-1"
             sizes="(max-width:768px) 100vw, 33vw"
           />

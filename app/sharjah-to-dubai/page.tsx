@@ -124,16 +124,16 @@ export default function SharjahToDubaiPage() {
         </div>
       </section>
 
-      {/* Route posters */}
+      {/* Car lift gallery */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-10">
         <div className="grid grid-cols-2 gap-3">
           <Image
-            {...IMAGES.routePickupDropoff}
+            {...IMAGES.carPickup}
             className="w-full rounded-xl object-cover"
             sizes="(max-width:768px) 50vw, 33vw"
           />
           <Image
-            {...IMAGES.destinationsPoster}
+            {...IMAGES.fleetSedans}
             className="w-full rounded-xl object-cover"
             sizes="(max-width:768px) 50vw, 33vw"
           />

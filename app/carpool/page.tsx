@@ -11,7 +11,7 @@ import { IMAGES } from "@/data/images"
 export const metadata: Metadata = {
   title: "Carpool Dubai Sharjah | Share a Ride from AED 22/day | M1 CarLift UAE",
   description:
-    "Carpool from Sharjah to Dubai from AED 22/day or AED 500/month. Share an AC-comfortable minibus with verified co-passengers. Fixed price, no surge. Book on WhatsApp.",
+    "Carpool from Sharjah to Dubai from AED 22/day or AED 500/month. Share an AC-comfortable sedan with verified co-passengers. Fixed price, no surge. Book on WhatsApp.",
   alternates: { canonical: `${BASE_URL}/carpool` },
   keywords: ["carpool dubai", "car pool dubai", "carpool uae", "carpool sharjah dubai", "carpool sharjah"],
 }
@@ -94,10 +94,10 @@ export default function CarpoolPage() {
           <LeadForm />
         </div>
 
-        {/* Fleet photo */}
+        {/* Car photo */}
         <div className="mb-10">
           <Image
-            {...IMAGES.vehicleCollage}
+            {...IMAGES.carInterior}
             className="w-full rounded-xl object-cover max-h-72"
             sizes="(max-width:768px) 100vw, 60vw"
           />
