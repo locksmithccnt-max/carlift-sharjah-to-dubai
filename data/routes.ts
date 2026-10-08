@@ -537,7 +537,7 @@ export function getRoutesByEmirate(emirate: string): RouteData[] {
   )
 }
 
-export const WHATSAPP_NUMBER = "971565828471"
-export const PHONE_NUMBER = "+971 56 582 8471"
+export const WHATSAPP_NUMBER = "971521488011"
+export const PHONE_NUMBER = "+971 52 148 8011"
 export const BUSINESS_NAME = "M1 CarLift UAE"
 export const BASE_URL = "https://carlift.ae"

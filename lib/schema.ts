@@ -12,7 +12,7 @@ export function organizationSchema() {
     telephone: PHONE_NUMBER,
     areaServed: ["Sharjah", "Dubai", "Ajman", "Abu Dhabi", "Ras Al Khaimah", "Al Ain"],
     sameAs: [
-      "https://wa.me/971501234567",
+      "https://wa.me/971521488011",
     ],
   }
 }
