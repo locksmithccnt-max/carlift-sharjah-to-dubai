@@ -7,10 +7,11 @@ import { BASE_URL, WHATSAPP_NUMBER, PHONE_NUMBER } from "@/data/routes"
 import { IMAGES } from "@/data/images"
 
 export const metadata: Metadata = {
-  title: "About M1 CarLift UAE | Sharjah–Dubai Car Lift Since 2020 | Taimoor Mughal",
+  title: "About M1 CarLift UAE | Sharjah–Dubai Car Lift",
   description:
     "M1 CarLift UAE founded by Taimoor Mughal in 2020. Modern sedan fleet. Verified drivers, ladies-only option, fixed pricing from AED 22/day.",
   alternates: { canonical: `${BASE_URL}/about` },
+  openGraph: { url: `${BASE_URL}/about` },
 }
 
 export default function AboutPage() {

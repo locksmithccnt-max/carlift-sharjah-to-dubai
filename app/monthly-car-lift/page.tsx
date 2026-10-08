@@ -8,10 +8,11 @@ import { MONTHLY_FAQS } from "@/data/faqs"
 import { ROUTES, BASE_URL, WHATSAPP_NUMBER } from "@/data/routes"
 
 export const metadata: Metadata = {
-  title: "Monthly Car Lift Dubai Sharjah | From AED 500/month | M1 CarLift UAE",
+  title: "Monthly Car Lift Dubai Sharjah | From AED 500",
   description:
-    "Monthly car lift Sharjah to Dubai from AED 500/month (22 working days). No rebooking, fixed price, no surge, verified drivers. WhatsApp to book your monthly plan today.",
+    "Monthly car lift Sharjah to Dubai from AED 500/month for 22 working days. No rebooking, fixed price, no surge, verified drivers.",
   alternates: { canonical: `${BASE_URL}/monthly-car-lift` },
+  openGraph: { url: `${BASE_URL}/monthly-car-lift` },
   keywords: ["car lift dubai monthly", "monthly car lift", "car lift dubai to abu dhabi monthly", "monthly carpool dubai"],
 }
 

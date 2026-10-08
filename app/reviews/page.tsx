@@ -6,10 +6,11 @@ import { TESTIMONIALS } from "@/data/testimonials"
 import { BASE_URL, WHATSAPP_NUMBER } from "@/data/routes"
 
 export const metadata: Metadata = {
-  title: "Car Lift UAE Reviews | Customer Reviews & Ratings | Car Lift UAE",
+  title: "Car Lift UAE Reviews | Customer Ratings",
   description:
     "Read genuine reviews from Car Lift UAE customers. 4.9/5 star rating from daily commuters on Sharjah–Dubai, Ajman–Dubai and other routes.",
   alternates: { canonical: `${BASE_URL}/reviews` },
+  openGraph: { url: `${BASE_URL}/reviews` },
 }
 
 function Stars({ n }: { n: number }) {

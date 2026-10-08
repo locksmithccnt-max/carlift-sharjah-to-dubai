@@ -7,10 +7,11 @@ import { localBusinessSchema, breadcrumbSchema } from "@/lib/schema"
 import { IMAGES } from "@/data/images"
 
 export const metadata: Metadata = {
-  title: "All Car Lift Routes UAE | Sharjah, Dubai, Ajman | M1 CarLift UAE",
+  title: "All Car Lift Routes UAE | Sharjah, Dubai, Ajman",
   description:
-    "19 car lift routes across UAE: Sharjah, Dubai, Ajman, Al Ain, RAK, Abu Dhabi. Daily from AED 18, monthly from AED 450. Ladies option. Click any route to book on WhatsApp.",
+    "19 car lift routes across UAE: Sharjah, Dubai, Ajman, Al Ain, RAK, Abu Dhabi. Daily from AED 18, monthly from AED 450. Book on WhatsApp.",
   alternates: { canonical: `${BASE_URL}/services` },
+  openGraph: { url: `${BASE_URL}/services` },
   keywords: ["car lift services in dubai", "car lift service", "carpool dubai routes", "car lift routes uae"],
 }
 

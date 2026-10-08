@@ -9,10 +9,11 @@ import { BASE_URL, WHATSAPP_NUMBER } from "@/data/routes"
 import { IMAGES } from "@/data/images"
 
 export const metadata: Metadata = {
-  title: "Pick and Drop Service Dubai & Sharjah | From AED 22 | M1 CarLift UAE",
+  title: "Pick and Drop Service Dubai & Sharjah | AED 22",
   description:
-    "Door-to-door pick and drop service in Dubai and Sharjah. Fixed schedule, verified drivers. From AED 22/trip or AED 500/month. No surge pricing. Book on WhatsApp.",
+    "Door-to-door pick and drop in Dubai and Sharjah from AED 22/trip or AED 500/month. Fixed schedule, verified drivers, no surge.",
   alternates: { canonical: `${BASE_URL}/pick-and-drop` },
+  openGraph: { url: `${BASE_URL}/pick-and-drop` },
   keywords: ["pick and drop service", "pick and drop service near me", "pick and drop dubai", "pick and drop sharjah"],
 }
 

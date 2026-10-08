@@ -16,7 +16,7 @@ import { IMAGES } from "@/data/images"
 export const metadata: Metadata = {
   title: "Car Lift Sharjah to Dubai | From AED 22/day | M1 CarLift UAE",
   description:
-    "Daily & monthly car lift from Sharjah to Dubai from AED 22/day or AED 500/month. Business Bay, JLT, DIP, Media City covered. Ladies option, verified drivers. Book on WhatsApp.",
+    "Daily car lift Sharjah to Dubai from AED 22/day or AED 500/month. Business Bay, JLT, DIP, Media City covered. Ladies option, verified drivers.",
   alternates: { canonical: "https://carlift.ae" },
 }
 

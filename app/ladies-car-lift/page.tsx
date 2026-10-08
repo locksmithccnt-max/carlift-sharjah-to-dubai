@@ -7,10 +7,11 @@ import { faqSchema, breadcrumbSchema } from "@/lib/schema"
 import { BASE_URL, WHATSAPP_NUMBER } from "@/data/routes"
 
 export const metadata: Metadata = {
-  title: "Ladies Car Lift Dubai Sharjah | Women-Only Car Lift UAE | M1 CarLift",
+  title: "Ladies Car Lift Dubai Sharjah | Women-Only Rides",
   description:
-    "Ladies-only car lift Sharjah to Dubai from AED 22/day. Female drivers, verified & background-checked. Safe, AC-comfortable. All major UAE routes. Book on WhatsApp.",
+    "Ladies-only car lift Sharjah to Dubai from AED 22/day. Female drivers, verified & background-checked. Safe, AC-comfortable rides.",
   alternates: { canonical: `${BASE_URL}/ladies-car-lift` },
+  openGraph: { url: `${BASE_URL}/ladies-car-lift` },
   keywords: [
     "car lift sharjah to dubai for ladies",
     "car lift from ajman to dubai for ladies",

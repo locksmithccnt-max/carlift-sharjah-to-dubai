@@ -10,10 +10,11 @@ import { getRouteBySlug, WHATSAPP_NUMBER, BASE_URL } from "@/data/routes"
 import { IMAGES } from "@/data/images"
 
 export const metadata: Metadata = {
-  title: "Car Lift Sharjah to Dubai | AED 22/day or AED 500/month | M1 CarLift",
+  title: "Car Lift Sharjah to Dubai | AED 22/day, AED 500/mo",
   description:
-    "Car lift Sharjah to Dubai from AED 22/day or AED 500/month (22 working days). Al Nahda, Muwaileh, Al Taawun pickup — JLT, Business Bay, Media City drop-off. Ladies option, verified drivers.",
+    "Car lift Sharjah to Dubai from AED 22/day or AED 500/month. Al Nahda, Muwaileh, Al Taawun pickup; JLT, Business Bay, Media City drop-off.",
   alternates: { canonical: `${BASE_URL}/sharjah-to-dubai` },
+  openGraph: { url: `${BASE_URL}/sharjah-to-dubai` },
   keywords: ["car lift sharjah to dubai", "dubai to sharjah car lift", "sharjah dubai carpool", "car lift sharjah dubai monthly"],
 }
 

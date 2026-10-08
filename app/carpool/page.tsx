@@ -9,10 +9,11 @@ import { BASE_URL, WHATSAPP_NUMBER } from "@/data/routes"
 import { IMAGES } from "@/data/images"
 
 export const metadata: Metadata = {
-  title: "Carpool Dubai Sharjah | Share a Ride from AED 22/day | M1 CarLift UAE",
+  title: "Carpool Dubai Sharjah | Share a Ride from AED 22",
   description:
-    "Carpool from Sharjah to Dubai from AED 22/day or AED 500/month. Share an AC-comfortable sedan with verified co-passengers. Fixed price, no surge. Book on WhatsApp.",
+    "Carpool Sharjah to Dubai from AED 22/day. Share an AC-comfortable sedan with verified co-passengers. Fixed price, no surge.",
   alternates: { canonical: `${BASE_URL}/carpool` },
+  openGraph: { url: `${BASE_URL}/carpool` },
   keywords: ["carpool dubai", "car pool dubai", "carpool uae", "carpool sharjah dubai", "carpool sharjah"],
 }
 

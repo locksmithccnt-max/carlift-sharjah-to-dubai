@@ -4,10 +4,11 @@ import LeadForm from "@/components/LeadForm"
 import { BASE_URL, WHATSAPP_NUMBER, PHONE_NUMBER } from "@/data/routes"
 
 export const metadata: Metadata = {
-  title: "Contact Car Lift UAE | Book a Car Lift | Car Lift UAE",
+  title: "Contact Car Lift UAE | Book a Car Lift",
   description:
     "Contact Car Lift UAE to book a daily or monthly car lift. WhatsApp, call, or fill in the quick booking form. We reply within 1 hour.",
   alternates: { canonical: `${BASE_URL}/contact` },
+  openGraph: { url: `${BASE_URL}/contact` },
 }
 
 export default function ContactPage() {

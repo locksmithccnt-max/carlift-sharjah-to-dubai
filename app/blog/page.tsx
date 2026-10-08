@@ -3,10 +3,11 @@ import Link from "next/link"
 import { BASE_URL } from "@/data/routes"
 
 export const metadata: Metadata = {
-  title: "Car Lift UAE Blog | Commute Tips & Route Guides | Car Lift UAE",
+  title: "Car Lift UAE Blog | Commute Tips & Route Guides",
   description:
     "Commute guides, route comparisons, and car lift pricing updates for UAE commuters. Sharjah–Dubai, Ajman–Dubai, and more.",
   alternates: { canonical: `${BASE_URL}/blog` },
+  openGraph: { url: `${BASE_URL}/blog` },
 }
 
 const POSTS = [

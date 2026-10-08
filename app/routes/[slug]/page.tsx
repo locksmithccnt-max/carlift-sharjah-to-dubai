@@ -21,7 +21,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const route = getRouteBySlug(slug)
   if (!route) return {}
 
-  const title = `Car Lift ${route.from} to ${route.to} | From AED ${route.priceFrom}/day`
+  const shortTo = route.to
+    .replace(/\s*\(.*?\)\s*/g, "")
+    .replace("Dubai Investment Park", "DIP")
+    .replace("Dubai Internet City", "Internet City")
+    .replace("Dubai Media City", "Media City")
+    .replace("Dubai Silicon Oasis", "Silicon Oasis")
+    .replace("Sharjah Airport / SAIF Zone", "Sharjah Airport")
+    .trim()
+  const title = `Car Lift ${route.from} to ${shortTo} | AED ${route.priceFrom}/day`
   const description = route.shortDescription.slice(0, 155)
   const url = `${BASE_URL}/routes/${slug}`
 
@@ -48,6 +56,10 @@ export default async function RoutePage({ params }: PageProps) {
       { name: `${route.from} to ${route.to}`, url: `${BASE_URL}/routes/${slug}` },
     ]),
   ]
+
+  const related = ROUTES.filter(
+    (r) => r.slug !== slug && (r.fromEmirate === route.fromEmirate || r.toEmirate === route.toEmirate)
+  ).slice(0, 4)
 
   return (
     <>
@@ -166,6 +178,33 @@ export default async function RoutePage({ params }: PageProps) {
           <p className="text-[#9ca3af] text-sm leading-relaxed">{route.longDescription}</p>
         </div>
       </section>
+
+      {/* ── RELATED ROUTES ── */}
+      {related.length > 0 && (
+        <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-14">
+          <h2 className="text-xl font-bold text-white mb-6">Related Car Lift Routes</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {related.map((r) => (
+              <Link
+                key={r.slug}
+                href={`/routes/${r.slug}`}
+                className="group rounded-xl border border-[#252629] bg-[#161719] hover:border-[#f59e0b]/40 hover:bg-[#1e2023] p-5 transition-all"
+              >
+                <div className="text-sm font-semibold text-white mb-1">
+                  {r.from} <span className="text-[#f59e0b]">→</span> {r.to}
+                </div>
+                <div className="text-xs text-[#9ca3af] mb-3">
+                  Daily <span className="text-white font-semibold">AED {r.priceFrom}</span>
+                  {" · "}Monthly <span className="text-[#f59e0b] font-semibold">AED {r.monthlyPrice}</span>
+                </div>
+                <div className="text-xs text-[#f59e0b] group-hover:translate-x-1 transition-transform">
+                  View route →
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* ── FAQs ── */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-14">

@@ -4,10 +4,11 @@ import { getLocationBySlug } from "@/data/locations"
 import { BASE_URL } from "@/data/routes"
 
 export const metadata: Metadata = {
-  title: "Car Lift Dubai | To Sharjah, Ajman & Al Ain | M1 CarLift UAE",
+  title: "Car Lift Dubai | To Sharjah, Ajman & Al Ain",
   description:
     "Car lift from Dubai to Sharjah from AED 22/day, Dubai to Ajman AED 27/day, Dubai to Al Ain AED 34/day. Intra-Dubai routes available. Book on WhatsApp.",
   alternates: { canonical: `${BASE_URL}/dubai` },
+  openGraph: { url: `${BASE_URL}/dubai` },
 }
 
 const FAQS = [

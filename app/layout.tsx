@@ -19,10 +19,10 @@ const GSC_TAG = process.env.NEXT_PUBLIC_GSC_TAG ?? ""
 export const metadata: Metadata = {
   title: {
     default: "Car Lift Sharjah to Dubai | From AED 22/day | M1 CarLift UAE",
-    template: "%s | M1 CarLift UAE",
+    template: "%s",
   },
   description:
-    "Daily car lift from Sharjah to Dubai from AED 22/day or AED 500/month. Business Bay, JLT, DIP, Media City covered. Ladies-only option, verified drivers. Book on WhatsApp.",
+    "Daily car lift Sharjah to Dubai from AED 22/day or AED 500/month. Business Bay, JLT, DIP, Media City covered. Ladies option, verified drivers.",
   keywords: [
     "car lift", "car lift dubai", "car lift sharjah to dubai",
     "car lift dubai monthly", "car lift for ladies", "carpool dubai",
@@ -46,13 +46,14 @@ export const metadata: Metadata = {
     siteName: "Car Lift UAE",
     title: "Car Lift Sharjah to Dubai | From AED 22/day | M1 CarLift UAE",
     description:
-      "Daily car lift Sharjah–Dubai from AED 22/day. Fixed monthly pricing from AED 500, verified drivers, ladies-only option. Book on WhatsApp.",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Car Lift UAE" }],
+      "Daily car lift Sharjah–Dubai from AED 22/day. Fixed monthly from AED 500, verified drivers, ladies option. Book on WhatsApp.",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "M1 CarLift UAE — Car Lift Sharjah to Dubai from AED 22/day" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Car Lift Dubai Sharjah | Car Lift UAE",
     description: "Daily car lift from Sharjah to Dubai from AED 22/day or AED 500/month. Ladies option available.",
+    images: ["/og-image.jpg"],
   },
   robots: { index: true, follow: true },
   alternates: { canonical: "https://carlift.ae" },
@@ -63,6 +64,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={inter.variable}>
       <head>
         {GSC_TAG && <meta name="google-site-verification" content={GSC_TAG} />}
+        <meta name="geo.region" content="AE-SH" />
+        <meta name="geo.placename" content="Sharjah, United Arab Emirates" />
+        <meta name="ICBM" content="25.3463, 55.4209" />
         <link rel="preconnect" href="https://wa.me" />
       </head>
       <body className="flex flex-col min-h-screen bg-[#0a0a0a] text-[#f0f0f2] pb-[68px] md:pb-0">
