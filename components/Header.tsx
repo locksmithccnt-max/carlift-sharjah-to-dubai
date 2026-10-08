@@ -22,17 +22,11 @@ export default function Header() {
           <Image
             src="/logo.webp"
             alt="CarLift Sharjah to Dubai"
-            width={44}
-            height={44}
+            width={208}
+            height={64}
             priority
-            className="h-10 w-10 rounded-lg"
+            className="h-10 w-auto"
           />
-          <span className="leading-tight">
-            <span className="block text-[15px] font-extrabold tracking-tight text-white">
-              CarLift <span className="text-[#f59e0b]">Sharjah to Dubai</span>
-            </span>
-            <span className="block text-[11px] font-medium text-[#9ca3af]">Daily Car Lift UAE</span>
-          </span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-6" aria-label="Main navigation">
