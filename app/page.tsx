@@ -169,25 +169,18 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── FLEET PHOTOS ── */}
+      {/* ── OUR CARS ── */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
         <h2 className="text-xl font-bold text-white mb-5">Our Cars</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-          <Image
-            {...IMAGES.fleetSedans}
-            className="w-full rounded-xl object-cover aspect-video"
-            sizes="(max-width:768px) 50vw, 33vw"
-          />
-          <Image
-            {...IMAGES.carInterior}
-            className="w-full rounded-xl object-cover aspect-video"
-            sizes="(max-width:768px) 50vw, 33vw"
-          />
-          <Image
-            {...IMAGES.carPickup}
-            className="w-full rounded-xl object-cover aspect-video col-span-2 md:col-span-1"
-            sizes="(max-width:768px) 100vw, 33vw"
-          />
+          {[IMAGES.carLexus, IMAGES.carCivicWhite, IMAGES.carCivicSilver, IMAGES.carSonata, IMAGES.carSuvNight, IMAGES.carSuvWhite].map((img) => (
+            <Image
+              key={img.src}
+              {...img}
+              className="w-full rounded-xl object-cover aspect-[4/3]"
+              sizes="(max-width:768px) 50vw, 33vw"
+            />
+          ))}
         </div>
       </section>
 

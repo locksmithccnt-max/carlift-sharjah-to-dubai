@@ -129,12 +129,12 @@ export default function SharjahToDubaiPage() {
       <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-10">
         <div className="grid grid-cols-2 gap-3">
           <Image
-            {...IMAGES.carPickup}
+            {...IMAGES.carSonata}
             className="w-full rounded-xl object-cover"
             sizes="(max-width:768px) 50vw, 33vw"
           />
           <Image
-            {...IMAGES.fleetSedans}
+            {...IMAGES.carCivicSilver}
             className="w-full rounded-xl object-cover"
             sizes="(max-width:768px) 50vw, 33vw"
           />

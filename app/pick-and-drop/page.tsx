@@ -95,7 +95,7 @@ export default function PickAndDropPage() {
         {/* Car pickup photo */}
         <div className="mb-10">
           <Image
-            {...IMAGES.carPickup}
+            {...IMAGES.carCivicWhite}
             className="w-full rounded-xl object-cover max-h-72"
             sizes="(max-width:768px) 100vw, 60vw"
           />

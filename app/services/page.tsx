@@ -50,12 +50,12 @@ export default function ServicesPage() {
         {/* Car showcase */}
         <div className="grid grid-cols-2 gap-3 mb-10">
           <Image
-            {...IMAGES.carInterior}
+            {...IMAGES.carCivicSilver}
             className="w-full rounded-xl object-cover aspect-video"
             sizes="(max-width:768px) 50vw, 33vw"
           />
           <Image
-            {...IMAGES.heroCar}
+            {...IMAGES.carSuvNight}
             className="w-full rounded-xl object-cover aspect-video"
             sizes="(max-width:768px) 50vw, 33vw"
           />

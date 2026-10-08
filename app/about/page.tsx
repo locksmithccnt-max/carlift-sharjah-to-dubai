@@ -54,12 +54,12 @@ export default function AboutPage() {
         {/* Fleet photos */}
         <div className="grid grid-cols-2 gap-3 mb-12">
           <Image
-            {...IMAGES.heroCar}
+            {...IMAGES.carLexus}
             className="w-full rounded-xl object-cover aspect-video"
             sizes="(max-width:768px) 50vw, 33vw"
           />
           <Image
-            {...IMAGES.fleetSedans}
+            {...IMAGES.carSonata}
             className="w-full rounded-xl object-cover aspect-video"
             sizes="(max-width:768px) 50vw, 33vw"
           />

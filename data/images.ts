@@ -1,31 +1,47 @@
 export const IMAGES = {
-  // Hero — sedan on UAE highway (homepage, about, sharjah-to-dubai)
+  // Hero — real Camry on the road (homepage hero)
   heroCar: {
-    src: "/images/car-lift-sedan-hero-sharjah-dubai-uae.webp",
-    alt: "Car lift sedan on UAE highway at golden hour — Sharjah to Dubai daily car lift service",
-    width: 1600,
-    height: 1066,
+    src: "/images/car-lift-toyota-camry-sharjah-dubai.webp",
+    alt: "Toyota Camry — M1 CarLift UAE car lift sedan, Sharjah to Dubai",
+    width: 1280,
+    height: 576,
   },
-  // Sedan fleet — homepage fleet section, about page
-  fleetSedans: {
-    src: "/images/car-lift-fleet-sedans-uae.webp",
-    alt: "M1 CarLift UAE sedan fleet parked in Sharjah — daily car lift service cars",
-    width: 1600,
-    height: 1066,
+  // Real fleet cars
+  carLexus: {
+    src: "/images/car-lift-lexus-sedan-dubai-carlift.webp",
+    alt: "White Lexus sedan — M1 CarLift UAE car lift Dubai Sharjah",
+    width: 960,
+    height: 1280,
   },
-  // Sedan interior — AC comfort (fleet sections, services, carpool)
-  carInterior: {
-    src: "/images/car-lift-sedan-interior-ac-comfort.webp",
-    alt: "Car lift sedan interior — clean air-conditioned back seats for Sharjah to Dubai commute",
-    width: 1200,
-    height: 800,
+  carCivicWhite: {
+    src: "/images/car-lift-honda-civic-dubai-car-lift.webp",
+    alt: "White Honda Civic — M1 CarLift UAE car lift Dubai",
+    width: 854,
+    height: 1280,
   },
-  // Sedan pickup — door-to-door pickup (fleet, pick-and-drop, route pages)
-  carPickup: {
-    src: "/images/car-lift-sedan-pickup-sharjah-dubai.webp",
-    alt: "Car lift sedan at pickup point in Sharjah — door-to-door car lift service to Dubai",
-    width: 1200,
-    height: 800,
+  carCivicSilver: {
+    src: "/images/car-lift-honda-civic-sharjah-carlift.webp",
+    alt: "Honda Civic — M1 CarLift UAE car lift Sharjah",
+    width: 1172,
+    height: 1280,
+  },
+  carSonata: {
+    src: "/images/car-lift-hyundai-sonata-dubai-sharjah.webp",
+    alt: "Hyundai Sonata sedan — M1 CarLift UAE car lift Dubai to Sharjah",
+    width: 1280,
+    height: 854,
+  },
+  carSuvNight: {
+    src: "/images/car-lift-suv-sharjah-car-lift.webp",
+    alt: "M1 CarLift UAE SUV for car lift service in Sharjah",
+    width: 1280,
+    height: 960,
+  },
+  carSuvWhite: {
+    src: "/images/car-lift-white-suv-dubai-car-lift.webp",
+    alt: "White SUV — M1 CarLift UAE car lift Dubai",
+    width: 720,
+    height: 1280,
   },
   // Owner photo
   ownerPhoto: {

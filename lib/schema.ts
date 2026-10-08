@@ -26,7 +26,7 @@ export function localBusinessSchema() {
     description:
       "Daily car lift and shared ride service operating on Sharjah–Dubai corridor and intercity UAE routes. Fixed monthly pricing, verified drivers, ladies-only option available.",
     url: BASE_URL,
-    image: `${BASE_URL}/images/car-lift-sedan-hero-sharjah-dubai-uae.webp`,
+    image: `${BASE_URL}/images/car-lift-toyota-camry-sharjah-dubai.webp`,
     telephone: PHONE_NUMBER,
     priceRange: "AED 25 – AED 1,100/month",
     currenciesAccepted: "AED",

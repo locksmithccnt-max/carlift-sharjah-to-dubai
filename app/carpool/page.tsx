@@ -98,7 +98,7 @@ export default function CarpoolPage() {
         {/* Car photo */}
         <div className="mb-10">
           <Image
-            {...IMAGES.carInterior}
+            {...IMAGES.carSuvWhite}
             className="w-full rounded-xl object-cover max-h-72"
             sizes="(max-width:768px) 100vw, 60vw"
           />
