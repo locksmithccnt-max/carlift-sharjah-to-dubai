@@ -14,7 +14,7 @@ import { WHATSAPP_NUMBER, PHONE_NUMBER } from "@/data/routes"
 import { IMAGES } from "@/data/images"
 
 export const metadata: Metadata = {
-  title: "Car Lift Sharjah to Dubai | From AED 22/day | M1 CarLift UAE",
+  title: "Car Lift Sharjah to Dubai | From AED 22/day",
   description:
     "Daily car lift Sharjah to Dubai from AED 22/day or AED 500/month. Business Bay, JLT, DIP, Media City covered. Ladies option, verified drivers.",
   alternates: { canonical: "https://carlift.ae" },
@@ -257,7 +257,7 @@ export default function HomePage() {
 
       {/* ── FAQ ── */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-16">
-        <FaqAccordion faqs={GLOBAL_FAQS} title="Car Lift UAE — Common Questions" />
+        <FaqAccordion faqs={GLOBAL_FAQS} title="CarLift Sharjah to Dubai — Common Questions" />
       </section>
     </>
   )

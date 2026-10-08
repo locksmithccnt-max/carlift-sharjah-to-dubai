@@ -17,11 +17,11 @@ export default function Header() {
         <Link
           href="/"
           className="flex items-center gap-2 hover:opacity-90 transition-opacity"
-          aria-label="Car Lift UAE — home"
+          aria-label="CarLift Sharjah to Dubai — home"
         >
           <Image
             src="/logo.webp"
-            alt="Car Lift UAE"
+            alt="CarLift Sharjah to Dubai"
             width={140}
             height={40}
             priority

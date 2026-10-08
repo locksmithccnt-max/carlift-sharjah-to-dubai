@@ -3,7 +3,7 @@ import Link from "next/link"
 import { BASE_URL } from "@/data/routes"
 
 export const metadata: Metadata = {
-  title: "Car Lift UAE Blog | Commute Tips & Route Guides",
+  title: "CarLift Sharjah to Dubai Blog | Commute Tips",
   description:
     "Commute guides, route comparisons, and car lift pricing updates for UAE commuters. Sharjah–Dubai, Ajman–Dubai, and more.",
   alternates: { canonical: `${BASE_URL}/blog` },
@@ -54,7 +54,7 @@ export default function BlogPage() {
         <span className="text-[#9ca3af]">Blog</span>
       </nav>
 
-      <h1 className="text-4xl font-bold text-white mb-3">Car Lift UAE — Commute Guides</h1>
+      <h1 className="text-4xl font-bold text-white mb-3">CarLift Sharjah to Dubai — Commute Guides</h1>
       <p className="text-[#9ca3af] text-base mb-10">
         Reference articles on UAE commuting costs, routes, and car lift options. Updated regularly with real pricing data.
       </p>

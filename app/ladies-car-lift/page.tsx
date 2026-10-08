@@ -79,7 +79,7 @@ export default function LadiesCarLiftPage() {
               <span className="text-xs font-semibold text-[#f59e0b]">👩 Women-only vehicles · Female drivers</span>
             </div>
 
-            <h1 className="text-4xl font-bold text-white mb-3">Ladies-Only Car Lift UAE</h1>
+            <h1 className="text-4xl font-bold text-white mb-3">Ladies-Only Car Lift</h1>
 
             <p className="text-base text-[#9ca3af] leading-relaxed mb-6 border-l-2 border-[#f59e0b] pl-4">
               A dedicated ladies car lift is available on all routes including Sharjah–Dubai, Ajman–Dubai, and Sharjah–Business Bay. Verified female drivers, women-only vehicles, same fixed pricing as our standard service.

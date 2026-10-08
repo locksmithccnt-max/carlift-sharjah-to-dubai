@@ -7,9 +7,9 @@ import { BASE_URL, WHATSAPP_NUMBER, PHONE_NUMBER } from "@/data/routes"
 import { IMAGES } from "@/data/images"
 
 export const metadata: Metadata = {
-  title: "About M1 CarLift UAE | Sharjah–Dubai Car Lift",
+  title: "About CarLift Sharjah to Dubai",
   description:
-    "M1 CarLift UAE founded by Taimoor Mughal in 2020. Modern sedan fleet. Verified drivers, ladies-only option, fixed pricing from AED 22/day.",
+    "CarLift Sharjah to Dubai founded by Taimoor Mughal in 2020. Modern sedan fleet. Verified drivers, ladies-only option, fixed pricing from AED 22/day.",
   alternates: { canonical: `${BASE_URL}/about` },
   openGraph: { url: `${BASE_URL}/about` },
 }
@@ -29,9 +29,9 @@ export default function AboutPage() {
         {/* Owner + brand intro */}
         <div className="grid md:grid-cols-2 gap-10 items-center mb-14">
           <div>
-            <h1 className="text-4xl font-bold text-white mb-4">About M1 CarLift UAE</h1>
+            <h1 className="text-4xl font-bold text-white mb-4">About CarLift Sharjah to Dubai</h1>
             <p className="text-[#9ca3af] text-base leading-relaxed mb-4">
-              M1 CarLift UAE was founded by <strong className="text-white">Taimoor Mughal</strong> and has been operating daily commuter car lifts on the Sharjah–Dubai corridor since 2020. What started as a small shared-ride network has grown into one of the most trusted daily commute services in the UAE, covering routes across Sharjah, Dubai, Ajman, Abu Dhabi, Ras Al Khaimah, and Al Ain.
+              CarLift Sharjah to Dubai was founded by <strong className="text-white">Taimoor Mughal</strong> and has been operating daily commuter car lifts on the Sharjah–Dubai corridor since 2020. What started as a small shared-ride network has grown into one of the most trusted daily commute services in the UAE, covering routes across Sharjah, Dubai, Ajman, Abu Dhabi, Ras Al Khaimah, and Al Ain.
             </p>
             <p className="text-[#9ca3af] text-sm leading-relaxed">
               Our fleet consists of clean, air-conditioned sedans — inspected, reliable, and driven by verified drivers.

@@ -3,8 +3,8 @@ import Link from "next/link"
 import { BASE_URL } from "@/data/routes"
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Car Lift UAE",
-  description: "Privacy policy for Car Lift UAE — how we handle your data.",
+  title: "Privacy Policy | CarLift Sharjah to Dubai",
+  description: "Privacy policy for CarLift Sharjah to Dubai — how we handle your data.",
   alternates: { canonical: `${BASE_URL}/privacy` },
   robots: { index: false },
 }
@@ -22,7 +22,7 @@ export default function PrivacyPage() {
       <p className="text-xs text-[#6b7280] mb-8">Last updated: September 2026</p>
 
       <div className="space-y-6 text-sm text-[#9ca3af] leading-relaxed">
-        <p>Car Lift UAE (&ldquo;we&rdquo;, &ldquo;our&rdquo;, &ldquo;us&rdquo;) is committed to protecting your privacy. This policy explains what personal information we collect and how we use it.</p>
+        <p>CarLift Sharjah to Dubai (&ldquo;we&rdquo;, &ldquo;our&rdquo;, &ldquo;us&rdquo;) is committed to protecting your privacy. This policy explains what personal information we collect and how we use it.</p>
 
         <h2 className="text-lg font-bold text-white">Information We Collect</h2>
         <p>When you contact us via WhatsApp or our booking form, we collect your name, phone number, and pickup/drop-off details. We use this information solely to arrange your car lift service.</p>

@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next"
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Car Lift UAE — Sharjah Dubai Daily Car Lift",
-    short_name: "Car Lift UAE",
+    name: "CarLift Sharjah to Dubai — Daily Car Lift",
+    short_name: "CarLift",
     description: "Daily car lift from Sharjah to Dubai and UAE intercity routes. Book on WhatsApp.",
     start_url: "/",
     display: "standalone",

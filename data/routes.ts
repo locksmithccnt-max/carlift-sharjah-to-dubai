@@ -70,7 +70,7 @@ export const ROUTES: RouteData[] = [
     shortDescription:
       "Daily car lift from Sharjah to Dubai from AED 22/day or AED 500/month. Morning departures at 8, 9, 10 AM — evening returns at 5, 6, 7 PM. Verified drivers, AC comfort, fixed pricing.",
     longDescription:
-      "The Sharjah–Dubai corridor is one of the busiest commuting routes in the UAE. M1 CarLift UAE runs air-conditioned sedans on this route every working day. Morning pick-ups from Sharjah at 8:00, 9:00, and 10:00 AM. Evening returns from Dubai at 5:00, 6:00, and 7:00 PM. Fixed monthly pricing means no surge and no rebooking.",
+      "The Sharjah–Dubai corridor is one of the busiest commuting routes in the UAE. CarLift Sharjah to Dubai runs air-conditioned sedans on this route every working day. Morning pick-ups from Sharjah at 8:00, 9:00, and 10:00 AM. Evening returns from Dubai at 5:00, 6:00, and 7:00 PM. Fixed monthly pricing means no surge and no rebooking.",
     faqs: [
       {
         q: "How much is a car lift from Sharjah to Dubai?",
@@ -539,5 +539,5 @@ export function getRoutesByEmirate(emirate: string): RouteData[] {
 
 export const WHATSAPP_NUMBER = "971521488011"
 export const PHONE_NUMBER = "+971 52 148 8011"
-export const BUSINESS_NAME = "M1 CarLift UAE"
+export const BUSINESS_NAME = "CarLift Sharjah to Dubai"
 export const BASE_URL = "https://carlift.ae"

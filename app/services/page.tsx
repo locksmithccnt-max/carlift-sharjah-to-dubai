@@ -44,7 +44,7 @@ export default function ServicesPage() {
 
         <h1 className="text-4xl font-bold text-white mb-3">Car Lift Services in UAE</h1>
         <p className="text-[#9ca3af] text-base max-w-xl mb-6 leading-relaxed">
-          All available car lift routes operated by Car Lift UAE. Click any route to see pricing, pickup/drop-off details, and to book.
+          All available car lift routes operated by CarLift Sharjah to Dubai. Click any route to see pricing, pickup/drop-off details, and to book.
         </p>
 
         {/* Car showcase */}

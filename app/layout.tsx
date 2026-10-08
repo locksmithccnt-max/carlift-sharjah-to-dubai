@@ -18,7 +18,7 @@ const GSC_TAG = process.env.NEXT_PUBLIC_GSC_TAG ?? ""
 
 export const metadata: Metadata = {
   title: {
-    default: "Car Lift Sharjah to Dubai | From AED 22/day | M1 CarLift UAE",
+    default: "Car Lift Sharjah to Dubai | From AED 22/day",
     template: "%s",
   },
   description:
@@ -43,15 +43,15 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_AE",
     url: "https://carlift.ae",
-    siteName: "Car Lift UAE",
-    title: "Car Lift Sharjah to Dubai | From AED 22/day | M1 CarLift UAE",
+    siteName: "CarLift Sharjah to Dubai",
+    title: "Car Lift Sharjah to Dubai | From AED 22/day",
     description:
       "Daily car lift Sharjah–Dubai from AED 22/day. Fixed monthly from AED 500, verified drivers, ladies option. Book on WhatsApp.",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "M1 CarLift UAE — Car Lift Sharjah to Dubai from AED 22/day" }],
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "CarLift Sharjah to Dubai — car lift from AED 22/day" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Car Lift Dubai Sharjah | Car Lift UAE",
+    title: "Car Lift Dubai Sharjah | CarLift Sharjah to Dubai",
     description: "Daily car lift from Sharjah to Dubai from AED 22/day or AED 500/month. Ladies option available.",
     images: ["/og-image.jpg"],
   },

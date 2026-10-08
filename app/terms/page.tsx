@@ -3,8 +3,8 @@ import Link from "next/link"
 import { BASE_URL } from "@/data/routes"
 
 export const metadata: Metadata = {
-  title: "Terms of Service | Car Lift UAE",
-  description: "Terms of service for Car Lift UAE.",
+  title: "Terms of Service | CarLift Sharjah to Dubai",
+  description: "Terms of service for CarLift Sharjah to Dubai.",
   alternates: { canonical: `${BASE_URL}/terms` },
   robots: { index: false },
 }
@@ -22,7 +22,7 @@ export default function TermsPage() {
       <p className="text-xs text-[#6b7280] mb-8">Last updated: September 2026</p>
 
       <div className="space-y-6 text-sm text-[#9ca3af] leading-relaxed">
-        <p>By booking a car lift with Car Lift UAE, you agree to the following terms.</p>
+        <p>By booking a car lift with CarLift Sharjah to Dubai, you agree to the following terms.</p>
 
         <h2 className="text-lg font-bold text-white">Bookings & Cancellations</h2>
         <p>Bookings are confirmed by WhatsApp or phone. Monthly subscriptions are non-refundable once the month has started, except where the driver fails to provide service. Daily bookings cancelled less than 2 hours before departure may be charged the trip fee.</p>
@@ -31,7 +31,7 @@ export default function TermsPage() {
         <p>Passengers are expected to be ready at the agreed pickup point at the agreed time. Excessive lateness (more than 10 minutes) may result in the vehicle departing without you. No smoking in vehicles. Respectful conduct toward drivers and co-passengers is required.</p>
 
         <h2 className="text-lg font-bold text-white">Liability</h2>
-        <p>Car Lift UAE is not liable for delays caused by traffic, accidents, or road conditions beyond our control. We will make best efforts to notify passengers of significant delays as early as possible.</p>
+        <p>CarLift Sharjah to Dubai is not liable for delays caused by traffic, accidents, or road conditions beyond our control. We will make best efforts to notify passengers of significant delays as early as possible.</p>
 
         <h2 className="text-lg font-bold text-white">Contact</h2>
         <p>For any disputes or questions, contact us via <Link href="/contact" className="text-[#f59e0b] hover:underline">WhatsApp or phone</Link>.</p>

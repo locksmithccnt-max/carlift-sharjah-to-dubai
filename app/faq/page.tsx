@@ -28,7 +28,7 @@ export default function FaqPage() {
           <span className="text-[#9ca3af]">FAQ</span>
         </nav>
 
-        <h1 className="text-4xl font-bold text-white mb-3">Car Lift UAE — Frequently Asked Questions</h1>
+        <h1 className="text-4xl font-bold text-white mb-3">CarLift Sharjah to Dubai — FAQs</h1>
         <p className="text-[#9ca3af] text-base mb-10">
           Everything you need to know about booking, pricing, drivers, and our car lift service in Dubai and Sharjah.
         </p>
