@@ -50,11 +50,11 @@ export const IMAGES = {
     width: 800,
     height: 1000,
   },
-  // Brand logo badge
+  // Brand logo
   brandBadge: {
-    src: "/images/m1-smartline-carlift-brand-logo-uae.webp",
-    alt: "CarLift Sharjah to Dubai — trusted car lift brand",
-    width: 600,
-    height: 597,
+    src: "/images/carlift-sharjah-dubai-logo-brand.webp",
+    alt: "CarLift Sharjah to Dubai — car lift service logo",
+    width: 512,
+    height: 512,
   },
 } as const

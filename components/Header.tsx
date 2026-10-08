@@ -16,17 +16,23 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
         <Link
           href="/"
-          className="flex items-center gap-2 hover:opacity-90 transition-opacity"
+          className="flex items-center gap-2.5 hover:opacity-90 transition-opacity"
           aria-label="CarLift Sharjah to Dubai — home"
         >
           <Image
             src="/logo.webp"
             alt="CarLift Sharjah to Dubai"
-            width={140}
-            height={40}
+            width={44}
+            height={44}
             priority
-            className="h-9 w-auto"
+            className="h-10 w-10 rounded-lg"
           />
+          <span className="leading-tight">
+            <span className="block text-[15px] font-extrabold tracking-tight text-white">
+              CarLift <span className="text-[#f59e0b]">Sharjah to Dubai</span>
+            </span>
+            <span className="block text-[11px] font-medium text-[#9ca3af]">Daily Car Lift UAE</span>
+          </span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-6" aria-label="Main navigation">
