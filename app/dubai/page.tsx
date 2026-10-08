@@ -6,7 +6,7 @@ import { BASE_URL } from "@/data/routes"
 export const metadata: Metadata = {
   title: "Car Lift Dubai | To Sharjah, Ajman & Al Ain",
   description:
-    "Car lift from Dubai to Sharjah from AED 22/day, Dubai to Ajman AED 27/day, Dubai to Al Ain AED 34/day. Intra-Dubai routes available. Book on WhatsApp.",
+    "Car lift from Dubai to Sharjah, Ajman, Al Ain and within Dubai: shared AED 100, private AED 180 per trip. Book on WhatsApp.",
   alternates: { canonical: `${BASE_URL}/dubai` },
   openGraph: { url: `${BASE_URL}/dubai` },
 }
@@ -18,7 +18,7 @@ const FAQS = [
   },
   {
     q: "How much is car lift in Dubai?",
-    a: "Car lift from Dubai depends on your route: Dubai to Sharjah from AED 22/day, Dubai to Ajman from AED 27/day, Dubai to Al Ain from AED 34/day.",
+    a: "Car lift pricing from Dubai is flat on every route: shared seat AED 100 per trip, private car AED 180 per trip — whether Sharjah, Ajman, or Al Ain.",
   },
 ]
 

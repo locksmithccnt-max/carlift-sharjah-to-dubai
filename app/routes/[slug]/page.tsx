@@ -29,7 +29,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     .replace("Dubai Silicon Oasis", "Silicon Oasis")
     .replace("Sharjah Airport / SAIF Zone", "Sharjah Airport")
     .trim()
-  const title = `Car Lift ${route.from} to ${shortTo} | AED ${route.priceFrom}/day`
+  const shortFrom = route.from
+    .replace("Dubai Silicon Oasis", "Silicon Oasis")
+    .replace("Sharjah Airport / SAIF Zone", "Sharjah Airport")
+    .trim()
+  const title = `Car Lift ${shortFrom} to ${shortTo} | Shared AED 100`
   const description = route.shortDescription.slice(0, 155)
   const url = `${BASE_URL}/routes/${slug}`
 
@@ -95,12 +99,14 @@ export default async function RoutePage({ params }: PageProps) {
 
             <div className="flex gap-4 mb-6">
               <div className="bg-[#161719] border border-[#252629] rounded-xl p-4 flex-1 text-center">
-                <div className="text-xs text-[#9ca3af] mb-1">Daily rate from</div>
-                <div className="text-2xl font-black text-[#f59e0b]">AED {route.priceFrom}</div>
+                <div className="text-xs text-[#9ca3af] mb-1">Shared seat</div>
+                <div className="text-2xl font-black text-[#f59e0b]">AED 100</div>
+                <div className="text-[11px] text-[#6b7280] mt-1">per trip</div>
               </div>
               <div className="bg-[#161719] border border-[#252629] rounded-xl p-4 flex-1 text-center">
-                <div className="text-xs text-[#9ca3af] mb-1">Monthly from</div>
-                <div className="text-2xl font-black text-white">AED {route.monthlyPrice}</div>
+                <div className="text-xs text-[#9ca3af] mb-1">Private car</div>
+                <div className="text-2xl font-black text-white">AED 180</div>
+                <div className="text-[11px] text-[#6b7280] mt-1">per trip</div>
               </div>
             </div>
 
@@ -134,8 +140,8 @@ export default async function RoutePage({ params }: PageProps) {
             {[
               { label: "Distance", value: route.distance },
               { label: "Est. Duration", value: route.durationEst },
-              { label: "Daily Rate", value: `AED ${route.priceFrom}` },
-              { label: "Monthly Rate", value: `AED ${route.monthlyPrice}` },
+              { label: "Shared Seat", value: "AED 100/trip" },
+              { label: "Private Car", value: "AED 180/trip" },
             ].map((d) => (
               <div key={d.label} className="bg-[#161719] border border-[#252629] rounded-xl p-4">
                 <div className="text-xs text-[#6b7280] mb-1">{d.label}</div>
@@ -194,8 +200,8 @@ export default async function RoutePage({ params }: PageProps) {
                   {r.from} <span className="text-[#f59e0b]">→</span> {r.to}
                 </div>
                 <div className="text-xs text-[#9ca3af] mb-3">
-                  Daily <span className="text-white font-semibold">AED {r.priceFrom}</span>
-                  {" · "}Monthly <span className="text-[#f59e0b] font-semibold">AED {r.monthlyPrice}</span>
+                  Shared <span className="text-white font-semibold">AED 100</span>
+                  {" · "}Private <span className="text-[#f59e0b] font-semibold">AED 180</span>
                 </div>
                 <div className="text-xs text-[#f59e0b] group-hover:translate-x-1 transition-transform">
                   View route →

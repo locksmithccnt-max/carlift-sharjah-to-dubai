@@ -9,9 +9,9 @@ import { BASE_URL, WHATSAPP_NUMBER } from "@/data/routes"
 import { IMAGES } from "@/data/images"
 
 export const metadata: Metadata = {
-  title: "Carpool Dubai Sharjah | Share a Ride from AED 22",
+  title: "Carpool Dubai Sharjah | Share a Ride AED 100",
   description:
-    "Carpool Sharjah to Dubai from AED 22/day. Share an AC-comfortable sedan with verified co-passengers. Fixed price, no surge.",
+    "Carpool Sharjah to Dubai: shared seat AED 100 per trip. Share an AC-comfortable sedan with verified co-passengers. Fixed price, no surge.",
   alternates: { canonical: `${BASE_URL}/carpool` },
   openGraph: { url: `${BASE_URL}/carpool` },
   keywords: ["carpool dubai", "car pool dubai", "carpool uae", "carpool sharjah dubai", "carpool sharjah"],
@@ -28,7 +28,7 @@ const FAQS = [
   },
   {
     q: "How much does carpool in Dubai cost?",
-    a: "Carpool from Sharjah to Dubai starts from AED 22 per trip, or AED 500 per month. Compared to the same journey on a rideshare app (AED 45–70 with surge), carpooling saves the average commuter AED 400–1,000 per month.",
+    a: "Carpool from Sharjah to Dubai is AED 100 per trip for a shared seat — the same flat rate on every route. Fixed price, no surge, door-to-door pickup.",
   },
   {
     q: "Is carpooling legal in UAE?",
@@ -60,14 +60,14 @@ export default function CarpoolPage() {
           <div>
             <h1 className="text-4xl font-bold text-white mb-3">Carpool Dubai &amp; Sharjah</h1>
             <p className="text-base text-[#9ca3af] leading-relaxed mb-6 border-l-2 border-[#f59e0b] pl-4">
-              Carpool in Dubai and Sharjah means sharing a private, air-conditioned car with 2–4 commuters on the same route. Pay only your share — from AED 22/day — and save AED 400–1,000 compared to daily rideshare apps.
+              Carpool in Dubai and Sharjah means sharing a private, air-conditioned car with 2–4 commuters on the same route. Pay only your share — AED 100 per trip, flat on every route — with no surge pricing.
             </p>
 
             <div className="bg-[#161719] border border-[#252629] rounded-xl p-5 mb-6">
               <h2 className="text-sm font-bold text-white mb-3">Carpool vs Alternatives</h2>
               <div className="space-y-2">
                 {[
-                  { option: "Carpool (ours)", cost: "AED 22–34/day", note: "Fixed, door-to-door" },
+                  { option: "Carpool (ours)", cost: "AED 100/trip", note: "Fixed, door-to-door" },
                   { option: "Rideshare (Careem/Uber)", cost: "AED 45–70/day", note: "Surges in peak hours" },
                   { option: "RTA Bus", cost: "AED 5–6/day", note: "No door-to-door, long journey" },
                   { option: "Own car", cost: "AED 60–80/day", note: "Fuel, parking, wear and tear" },

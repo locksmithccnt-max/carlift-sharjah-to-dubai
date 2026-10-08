@@ -15,14 +15,10 @@
 - Carpool (shared ride): https://carlift.ae/carpool
 - Pick and drop service: https://carlift.ae/pick-and-drop
 
-## Pricing (indicative, confirm on WhatsApp)
-- Sharjah → Dubai: from AED 22/day, AED 500/month
-- Sharjah → Business Bay: from AED 26/day, AED 570/month
-- Sharjah → JLT: from AED 28/day, AED 600/month
-- Sharjah → Dubai Investment Park (DIP): from AED 29/day
-- Ajman → Dubai: from AED 27/day, AED 600/month
-- Dubai → Al Ain: from AED 34/day, AED 750/month
-- Sharjah → Ras Al Khaimah: from AED 31/day
+## Pricing (flat on every route, confirm on WhatsApp)
+- Shared seat: AED 100 per trip
+- Private car: AED 180 per trip
+- Monthly (22 working days, one-way): AED 2,200 shared, AED 3,960 private
 
 ## Key pages
 - https://carlift.ae — Home

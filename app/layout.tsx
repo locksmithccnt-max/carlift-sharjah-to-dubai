@@ -18,11 +18,11 @@ const GSC_TAG = process.env.NEXT_PUBLIC_GSC_TAG ?? ""
 
 export const metadata: Metadata = {
   title: {
-    default: "Car Lift Sharjah to Dubai | From AED 22/day",
+    default: "Car Lift Sharjah to Dubai | Shared AED 100",
     template: "%s",
   },
   description:
-    "Daily car lift Sharjah to Dubai from AED 22/day or AED 500/month. Business Bay, JLT, DIP, Media City covered. Ladies option, verified drivers.",
+    "Daily car lift Sharjah to Dubai: shared seat AED 100, private car AED 180 per trip. Business Bay, JLT, DIP, Media City. Ladies option, verified drivers.",
   keywords: [
     "car lift", "car lift dubai", "car lift sharjah to dubai",
     "car lift dubai monthly", "car lift for ladies", "carpool dubai",
@@ -44,15 +44,15 @@ export const metadata: Metadata = {
     locale: "en_AE",
     url: "https://carlift.ae",
     siteName: "CarLift Sharjah to Dubai",
-    title: "Car Lift Sharjah to Dubai | From AED 22/day",
+    title: "Car Lift Sharjah to Dubai | Shared AED 100",
     description:
-      "Daily car lift Sharjah–Dubai from AED 22/day. Fixed monthly from AED 500, verified drivers, ladies option. Book on WhatsApp.",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "CarLift Sharjah to Dubai — car lift from AED 22/day" }],
+      "Daily car lift Sharjah–Dubai: shared AED 100, private AED 180 per trip. Verified drivers, ladies option. Book on WhatsApp.",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "CarLift Sharjah to Dubai — shared car lift AED 100" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Car Lift Dubai Sharjah | CarLift Sharjah to Dubai",
-    description: "Daily car lift from Sharjah to Dubai from AED 22/day or AED 500/month. Ladies option available.",
+    description: "Daily car lift Sharjah to Dubai: shared AED 100, private AED 180 per trip. Ladies option available.",
     images: ["/og-image.jpg"],
   },
   robots: { index: true, follow: true },

@@ -1,4 +1,4 @@
-import { BUSINESS_NAME, BASE_URL, PHONE_NUMBER } from "@/data/routes"
+import { BUSINESS_NAME, BASE_URL, PHONE_NUMBER, SHARED_PRICE, PRIVATE_PRICE } from "@/data/routes"
 import type { RouteData } from "@/data/routes"
 import type { Testimonial } from "@/data/testimonials"
 
@@ -28,7 +28,7 @@ export function localBusinessSchema() {
     url: BASE_URL,
     image: `${BASE_URL}/images/car-lift-toyota-camry-sharjah-dubai.webp`,
     telephone: PHONE_NUMBER,
-    priceRange: "AED 25 – AED 1,100/month",
+    priceRange: "AED 100 – AED 180 per trip",
     currenciesAccepted: "AED",
     paymentAccepted: "Cash, Bank Transfer",
     areaServed: [
@@ -69,8 +69,8 @@ export function serviceSchema(route: RouteData) {
     offers: {
       "@type": "AggregateOffer",
       priceCurrency: "AED",
-      lowPrice: route.priceFrom,
-      highPrice: route.monthlyPrice,
+      lowPrice: SHARED_PRICE,
+      highPrice: PRIVATE_PRICE,
       offerCount: 2,
     },
   }

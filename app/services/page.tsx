@@ -9,7 +9,7 @@ import { IMAGES } from "@/data/images"
 export const metadata: Metadata = {
   title: "All Car Lift Routes UAE | Sharjah, Dubai, Ajman",
   description:
-    "19 car lift routes across UAE: Sharjah, Dubai, Ajman, Al Ain, RAK, Abu Dhabi. Daily from AED 18, monthly from AED 450. Book on WhatsApp.",
+    "19 car lift routes across UAE: Sharjah, Dubai, Ajman, Al Ain, RAK, Abu Dhabi. Shared AED 100, private AED 180 per trip on every route. Book on WhatsApp.",
   alternates: { canonical: `${BASE_URL}/services` },
   openGraph: { url: `${BASE_URL}/services` },
   keywords: ["car lift services in dubai", "car lift service", "carpool dubai routes", "car lift routes uae"],
@@ -86,12 +86,12 @@ export default function ServicesPage() {
                   <p className="text-xs text-[#9ca3af] line-clamp-2 mb-3">{r.shortDescription}</p>
                   <div className="flex gap-4 text-xs">
                     <div>
-                      <span className="text-[#6b7280]">Daily </span>
-                      <span className="text-white font-semibold">AED {r.priceFrom}</span>
+                      <span className="text-[#6b7280]">Shared </span>
+                      <span className="text-white font-semibold">AED 100</span>
                     </div>
                     <div>
-                      <span className="text-[#6b7280]">Monthly </span>
-                      <span className="text-[#f59e0b] font-bold">AED {r.monthlyPrice}</span>
+                      <span className="text-[#6b7280]">Private </span>
+                      <span className="text-[#f59e0b] font-bold">AED 180</span>
                     </div>
                   </div>
                   <div className="text-xs text-[#f59e0b] mt-3 group-hover:translate-x-1 transition-transform">

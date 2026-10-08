@@ -22,7 +22,7 @@ export const GLOBAL_FAQS: FaqItem[] = [
   },
   {
     q: "How much does a monthly car lift cost?",
-    a: "Monthly car lift pricing depends on your route. Sharjah–Dubai starts from AED 550/month. Sharjah–Business Bay from AED 650/month. All prices are for 22 working days of one-way travel. Two-way monthly packages are also available.",
+    a: "Monthly car lift pricing is flat across all routes. Sharjah–Dubai and every other route: AED 2,200/month shared or AED 3,960/month private, for 22 working days of one-way travel. Two-way monthly packages double the one-way rate.",
     category: "pricing",
   },
   {
@@ -42,12 +42,12 @@ export const GLOBAL_FAQS: FaqItem[] = [
   },
   {
     q: "How to go to Sharjah from Dubai by car lift?",
-    a: "Contact us with your Dubai pickup location (e.g. Deira, Downtown, Business Bay) and your Sharjah drop-off. We match you with an existing evening car lift on the same corridor. Return trip pricing starts from AED 25.",
+    a: "Contact us with your Dubai pickup location (e.g. Deira, Downtown, Business Bay) and your Sharjah drop-off. We match you with an existing evening car lift on the same corridor. Return trips are AED 100 shared or AED 180 private per trip.",
     category: "general",
   },
   {
     q: "Is car lift cheaper than Careem or Uber in Dubai?",
-    a: "Significantly cheaper for daily commuters. A solo Careem from Sharjah to Business Bay costs AED 45–70 per trip depending on surge. Our monthly car lift averages AED 29/day — a saving of AED 300–900 per month.",
+    a: "Our pricing is fixed with no surge: a shared seat is AED 100 per trip, a private car AED 180 per trip — the same on every route. You get door-to-door pickup, a verified driver, and AC comfort at a price agreed upfront.",
     category: "pricing",
   },
   {

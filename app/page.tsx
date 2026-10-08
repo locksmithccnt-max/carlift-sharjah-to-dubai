@@ -14,19 +14,19 @@ import { WHATSAPP_NUMBER, PHONE_NUMBER } from "@/data/routes"
 import { IMAGES } from "@/data/images"
 
 export const metadata: Metadata = {
-  title: "Car Lift Sharjah to Dubai | From AED 22/day",
+  title: "Car Lift Sharjah to Dubai | Shared AED 100",
   description:
-    "Daily car lift Sharjah to Dubai from AED 22/day or AED 500/month. Business Bay, JLT, DIP, Media City covered. Ladies option, verified drivers.",
+    "Daily car lift Sharjah to Dubai: shared seat AED 100, private car AED 180 per trip. Business Bay, JLT, DIP, Media City. Ladies option, verified drivers.",
   alternates: { canonical: "https://carlift.ae" },
 }
 
 const POPULAR_ROUTES = [
-  { from: "Sharjah", to: "Business Bay", price: 570, slug: "/routes/sharjah-to-business-bay", vol: "480 searches/mo" },
-  { from: "Sharjah", to: "Dubai (general)", price: 500, slug: "/sharjah-to-dubai", vol: "880 searches/mo" },
-  { from: "Sharjah", to: "JLT", price: 600, slug: "/routes/sharjah-to-jlt", vol: "High demand" },
-  { from: "Sharjah", to: "DIP", price: 620, slug: "/routes/sharjah-to-dip", vol: "" },
-  { from: "Ajman", to: "Dubai", price: 600, slug: "/routes/ajman-to-dubai", vol: "" },
-  { from: "Dubai", to: "Al Ain", price: 750, slug: "/routes/dubai-to-al-ain", vol: "" },
+  { from: "Sharjah", to: "Business Bay", slug: "/routes/sharjah-to-business-bay", vol: "480 searches/mo" },
+  { from: "Sharjah", to: "Dubai (all areas)", slug: "/sharjah-to-dubai", vol: "880 searches/mo" },
+  { from: "Sharjah", to: "JLT", slug: "/routes/sharjah-to-jlt", vol: "High demand" },
+  { from: "Sharjah", to: "DIP", slug: "/routes/sharjah-to-dip", vol: "" },
+  { from: "Ajman", to: "Dubai", slug: "/routes/ajman-to-dubai", vol: "" },
+  { from: "Dubai", to: "Al Ain", slug: "/routes/dubai-to-al-ain", vol: "" },
 ]
 
 export default function HomePage() {
@@ -60,7 +60,7 @@ export default function HomePage() {
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-[1.1] tracking-tight mb-4">
               Car Lift<br />
               <span className="text-[#f59e0b]">Sharjah ↔ Dubai</span><br />
-              <span className="text-[#9ca3af] text-3xl sm:text-4xl font-semibold">from AED 22/day</span>
+              <span className="text-[#9ca3af] text-3xl sm:text-4xl font-semibold">Shared AED 100 · Private AED 180</span>
             </h1>
 
             <p className="text-base sm:text-lg text-[#9ca3af] max-w-xl mb-8 leading-relaxed">
@@ -137,8 +137,8 @@ export default function HomePage() {
                   {route.vol && <div className="text-xs text-[#6b7280] mt-0.5">{route.vol}</div>}
                 </div>
                 <div className="text-right">
-                  <div className="text-xs text-[#9ca3af]">Monthly from</div>
-                  <div className="font-bold text-[#f59e0b]">AED {route.price}</div>
+                  <div className="text-xs text-[#9ca3af]">Shared / Private</div>
+                  <div className="font-bold text-[#f59e0b]">AED 100 / 180</div>
                 </div>
               </div>
               <div className="text-xs text-[#f59e0b] group-hover:translate-x-1 transition-transform">
@@ -195,28 +195,28 @@ export default function HomePage() {
             </p>
             <div className="space-y-3">
               {[
-                { route: "Sharjah → Dubai", daily: 22, monthly: 500 },
-                { route: "Sharjah → Business Bay", daily: 26, monthly: 570 },
-                { route: "Sharjah → JLT", daily: 28, monthly: 600 },
-                { route: "Ajman → Dubai", daily: 27, monthly: 600 },
-                { route: "Dubai → Al Ain", daily: 34, monthly: 750 },
+                { route: "Sharjah → Dubai" },
+                { route: "Sharjah → Business Bay" },
+                { route: "Sharjah → JLT" },
+                { route: "Ajman → Dubai" },
+                { route: "Dubai → Al Ain" },
               ].map((p) => (
                 <div key={p.route} className="flex items-center justify-between py-3 border-b border-[#252629]">
                   <span className="text-sm text-[#9ca3af]">{p.route}</span>
                   <div className="flex gap-4 text-right">
                     <div>
-                      <div className="text-xs text-[#6b7280]">Daily</div>
-                      <div className="text-sm font-semibold text-white">AED {p.daily}</div>
+                      <div className="text-xs text-[#6b7280]">Shared</div>
+                      <div className="text-sm font-semibold text-white">AED 100</div>
                     </div>
                     <div>
-                      <div className="text-xs text-[#6b7280]">Monthly</div>
-                      <div className="text-sm font-bold text-[#f59e0b]">AED {p.monthly}</div>
+                      <div className="text-xs text-[#6b7280]">Private</div>
+                      <div className="text-sm font-bold text-[#f59e0b]">AED 180</div>
                     </div>
                   </div>
                 </div>
               ))}
             </div>
-            <p className="text-xs text-[#6b7280] mt-3">Prices last updated September 2026. Contact for exact quote.</p>
+            <p className="text-xs text-[#6b7280] mt-3">Flat rates on all routes. Monthly plans (22 working days): AED 2,200 shared, AED 3,960 private. Prices last updated October 2026.</p>
           </div>
 
           <LeadForm />

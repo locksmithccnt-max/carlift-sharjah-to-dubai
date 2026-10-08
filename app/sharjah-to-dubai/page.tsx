@@ -10,9 +10,9 @@ import { getRouteBySlug, WHATSAPP_NUMBER, BASE_URL } from "@/data/routes"
 import { IMAGES } from "@/data/images"
 
 export const metadata: Metadata = {
-  title: "Car Lift Sharjah to Dubai | AED 22/day, AED 500/mo",
+  title: "Car Lift Sharjah to Dubai | Shared AED 100",
   description:
-    "Car lift Sharjah to Dubai from AED 22/day or AED 500/month. Al Nahda, Muwaileh, Al Taawun pickup; JLT, Business Bay, Media City drop-off.",
+    "Car lift Sharjah to Dubai: shared seat AED 100, private car AED 180 per trip. Al Nahda, Muwaileh, Al Taawun pickup; JLT, Business Bay, Media City drop-off.",
   alternates: { canonical: `${BASE_URL}/sharjah-to-dubai` },
   openGraph: { url: `${BASE_URL}/sharjah-to-dubai` },
   keywords: ["car lift sharjah to dubai", "dubai to sharjah car lift", "sharjah dubai carpool", "car lift sharjah dubai monthly"],
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const FAQS = [
   {
     q: "How much is a car lift from Sharjah to Dubai?",
-    a: "A daily car lift from Sharjah to Dubai starts from AED 22 per trip. Monthly packages covering 22 working days start from AED 500 one-way. Two-way monthly packages start from AED 900.",
+    a: "A daily car lift from Sharjah to Dubai is AED 100 per trip shared or AED 180 private. Monthly packages (22 working days): AED 2,200 shared, AED 3,960 private one-way.",
   },
   {
     q: "Is there a car lift service from Dubai to Sharjah?",
@@ -46,15 +46,15 @@ const FAQS = [
 ]
 
 const DUBAI_DISTRICTS = [
-  { name: "Business Bay", slug: "sharjah-to-business-bay", price: 570 },
-  { name: "JLT", slug: "sharjah-to-jlt", price: 600 },
-  { name: "Al Quoz", slug: "sharjah-to-al-quoz", price: 550 },
-  { name: "Al Barsha", slug: "sharjah-to-al-barsha", price: 580 },
-  { name: "DIP", slug: "sharjah-to-dip", price: 620 },
-  { name: "Jebel Ali", slug: "sharjah-to-jebel-ali", price: 650 },
-  { name: "Internet City", slug: "sharjah-to-internet-city", price: 600 },
-  { name: "Media City", slug: "sharjah-to-media-city", price: 600 },
-  { name: "Silicon Oasis", slug: "sharjah-to-silicon-oasis", price: 520 },
+  { name: "Business Bay", slug: "sharjah-to-business-bay" },
+  { name: "JLT", slug: "sharjah-to-jlt" },
+  { name: "Al Quoz", slug: "sharjah-to-al-quoz" },
+  { name: "Al Barsha", slug: "sharjah-to-al-barsha" },
+  { name: "DIP", slug: "sharjah-to-dip" },
+  { name: "Jebel Ali", slug: "sharjah-to-jebel-ali" },
+  { name: "Internet City", slug: "sharjah-to-internet-city" },
+  { name: "Media City", slug: "sharjah-to-media-city" },
+  { name: "Silicon Oasis", slug: "sharjah-to-silicon-oasis" },
 ]
 
 const mainRoute = getRouteBySlug("sharjah-to-dubai")
@@ -94,13 +94,13 @@ export default function SharjahToDubaiPage() {
 
             {/* AEO-optimised direct answer */}
             <p className="text-base text-[#9ca3af] leading-relaxed mb-6 border-l-2 border-[#f59e0b] pl-4">
-              Daily car lift from Sharjah to Dubai starts from AED 22 per trip or AED 500 per month for 22 working days. We cover all major Sharjah pickup areas (Al Nahda, Muwaileh, Al Taawun) and all Dubai districts. Ladies-only option available with female drivers.
+              Daily car lift from Sharjah to Dubai is AED 100 per trip shared or AED 180 private, with monthly plans for 22 working days. We cover all major Sharjah pickup areas (Al Nahda, Muwaileh, Al Taawun) and all Dubai districts. Ladies-only option available with female drivers.
             </p>
 
             <div className="grid grid-cols-2 gap-3 mb-6">
               {[
-                { label: "From (daily)", value: "AED 22" },
-                { label: "Monthly (one-way)", value: "AED 500" },
+                { label: "Shared (per trip)", value: "AED 100" },
+                { label: "Private (per trip)", value: "AED 180" },
                 { label: "Duration", value: "30–55 min" },
                 { label: "Distance", value: "20–35 km" },
               ].map((d) => (
@@ -154,7 +154,7 @@ export default function SharjahToDubaiPage() {
                 className="group rounded-xl border border-[#252629] bg-[#161719] hover:border-[#f59e0b]/40 p-4 transition-all"
               >
                 <div className="text-sm font-semibold text-white">{d.name}</div>
-                <div className="text-xs text-[#f59e0b] mt-1">AED {d.price}/mo</div>
+                <div className="text-xs text-[#f59e0b] mt-1">Shared AED 100 · Private AED 180</div>
               </Link>
             ))}
           </div>

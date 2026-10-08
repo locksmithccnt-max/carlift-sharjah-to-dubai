@@ -9,9 +9,9 @@ import { BASE_URL, WHATSAPP_NUMBER } from "@/data/routes"
 import { IMAGES } from "@/data/images"
 
 export const metadata: Metadata = {
-  title: "Pick and Drop Service Dubai & Sharjah | AED 22",
+  title: "Pick and Drop Service Dubai & Sharjah | Shared AED 100",
   description:
-    "Door-to-door pick and drop in Dubai and Sharjah from AED 22/trip or AED 500/month. Fixed schedule, verified drivers, no surge.",
+    "Door-to-door pick and drop in Dubai and Sharjah: shared AED 100/trip, private AED 180/trip. Fixed schedule, verified drivers, no surge.",
   alternates: { canonical: `${BASE_URL}/pick-and-drop` },
   openGraph: { url: `${BASE_URL}/pick-and-drop` },
   keywords: ["pick and drop service", "pick and drop service near me", "pick and drop dubai", "pick and drop sharjah"],
@@ -28,7 +28,7 @@ const FAQS = [
   },
   {
     q: "How much does pick and drop service cost in Dubai?",
-    a: "Pick and drop from Sharjah to Dubai starts from AED 22 per trip. Monthly pick and drop subscriptions start from AED 500 for 22 working days. Contact us for a custom quote based on your specific route.",
+    a: "Pick and drop from Sharjah to Dubai is AED 100 per trip shared or AED 180 private. Monthly subscriptions (22 working days): AED 2,200 shared, AED 3,960 private.",
   },
   {
     q: "Do you offer pick and drop for school children?",

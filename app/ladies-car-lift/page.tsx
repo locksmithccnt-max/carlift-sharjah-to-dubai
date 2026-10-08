@@ -9,7 +9,7 @@ import { BASE_URL, WHATSAPP_NUMBER } from "@/data/routes"
 export const metadata: Metadata = {
   title: "Ladies Car Lift Dubai Sharjah | Women-Only Rides",
   description:
-    "Ladies-only car lift Sharjah to Dubai from AED 22/day. Female drivers, verified & background-checked. Safe, AC-comfortable rides.",
+    "Ladies-only car lift Sharjah to Dubai: shared AED 100, private AED 180 per trip. Female drivers, verified & background-checked.",
   alternates: { canonical: `${BASE_URL}/ladies-car-lift` },
   openGraph: { url: `${BASE_URL}/ladies-car-lift` },
   keywords: [
@@ -36,7 +36,7 @@ const FAQS = [
   },
   {
     q: "How much does the ladies car lift cost?",
-    a: "Ladies-only car lift pricing is the same as our standard service: Sharjah–Dubai from AED 22/day or AED 500/month, Ajman–Dubai from AED 27/day or AED 600/month. No premium for the ladies option.",
+    a: "Ladies-only car lift pricing is the same as our standard service on every route: shared seat AED 100 per trip, private car AED 180 per trip. No premium for the ladies option.",
   },
   {
     q: "Are the female drivers verified?",
@@ -45,12 +45,12 @@ const FAQS = [
 ]
 
 const ROUTES_LADIES = [
-  { from: "Sharjah", to: "Dubai (all areas)", price: 500, href: "/sharjah-to-dubai" },
-  { from: "Sharjah", to: "Business Bay", price: 570, href: "/routes/sharjah-to-business-bay" },
-  { from: "Sharjah", to: "JLT", price: 600, href: "/routes/sharjah-to-jlt" },
-  { from: "Sharjah", to: "Al Barsha", price: 580, href: "/routes/sharjah-to-al-barsha" },
-  { from: "Ajman", to: "Dubai", price: 600, href: "/routes/ajman-to-dubai" },
-  { from: "Dubai", to: "Sharjah", price: 500, href: "/routes/dubai-to-sharjah" },
+  { from: "Sharjah", to: "Dubai (all areas)", href: "/sharjah-to-dubai" },
+  { from: "Sharjah", to: "Business Bay", href: "/routes/sharjah-to-business-bay" },
+  { from: "Sharjah", to: "JLT", href: "/routes/sharjah-to-jlt" },
+  { from: "Sharjah", to: "Al Barsha", href: "/routes/sharjah-to-al-barsha" },
+  { from: "Ajman", to: "Dubai", href: "/routes/ajman-to-dubai" },
+  { from: "Dubai", to: "Sharjah", href: "/routes/dubai-to-sharjah" },
 ]
 
 export default function LadiesCarLiftPage() {
@@ -128,7 +128,7 @@ export default function LadiesCarLiftPage() {
                 <div className="text-sm font-semibold text-white mb-1">
                   {r.from} <span className="text-[#f59e0b]">→</span> {r.to}
                 </div>
-                <div className="text-xs text-[#9ca3af]">Monthly from AED {r.price}</div>
+                <div className="text-xs text-[#9ca3af]">Shared AED 100 · Private AED 180</div>
                 <div className="text-xs text-[#f59e0b] mt-2 group-hover:translate-x-1 transition-transform">View route →</div>
               </Link>
             ))}

@@ -8,9 +8,9 @@ import { MONTHLY_FAQS } from "@/data/faqs"
 import { ROUTES, BASE_URL, WHATSAPP_NUMBER } from "@/data/routes"
 
 export const metadata: Metadata = {
-  title: "Monthly Car Lift Dubai Sharjah | From AED 500",
+  title: "Monthly Car Lift Dubai Sharjah | AED 2,200",
   description:
-    "Monthly car lift Sharjah to Dubai from AED 500/month for 22 working days. No rebooking, fixed price, no surge, verified drivers.",
+    "Monthly car lift Sharjah to Dubai: AED 2,200 shared or AED 3,960 private for 22 working days. No rebooking, fixed price, no surge, verified drivers.",
   alternates: { canonical: `${BASE_URL}/monthly-car-lift` },
   openGraph: { url: `${BASE_URL}/monthly-car-lift` },
   keywords: ["car lift dubai monthly", "monthly car lift", "car lift dubai to abu dhabi monthly", "monthly carpool dubai"],
@@ -20,7 +20,7 @@ const FAQS = [
   ...MONTHLY_FAQS,
   {
     q: "How much is a monthly car lift from Sharjah to Dubai?",
-    a: "Monthly car lift from Sharjah to Dubai starts at AED 500 for one-way service covering 22 working days. Two-way (morning + evening) monthly packages start from AED 900.",
+    a: "Monthly car lift from Sharjah to Dubai is AED 2,200 shared or AED 3,960 private, covering 22 working days of one-way service. Two-way (morning + evening) monthly doubles the one-way rate.",
   },
   {
     q: "What is a monthly car lift in Dubai?",
@@ -28,7 +28,7 @@ const FAQS = [
   },
   {
     q: "Is the monthly car lift cheaper than daily rideshare?",
-    a: "Significantly cheaper. A daily Careem from Sharjah to Business Bay averages AED 50–70 per trip. With 22 working days, that's AED 1,100–1,540/month. Our monthly car lift on the same route is AED 570 — a saving of AED 530–970 per month.",
+    a: "Our pricing is fixed with no surge: AED 100 per trip shared or AED 180 private, locked in for the month. Monthly plans (22 working days) are AED 2,200 shared or AED 3,960 private — you know your exact transport cost upfront, with door-to-door pickup and no rebooking.",
   },
 ]
 
@@ -63,7 +63,7 @@ export default function MonthlyCarLiftPage() {
           <div>
             <h1 className="text-4xl font-bold text-white mb-3">Monthly Car Lift Dubai & UAE</h1>
             <p className="text-base text-[#9ca3af] leading-relaxed mb-6 border-l-2 border-[#f59e0b] pl-4">
-              Monthly car lift subscription from Sharjah to Dubai starts at AED 500 per month for 22 working days of one-way transport. Fixed price, no surge, no rebooking — your driver picks you up every morning at the agreed time.
+              Monthly car lift subscription: AED 2,200 shared or AED 3,960 private per month for 22 working days of one-way transport. Fixed price, no surge, no rebooking — your driver picks you up every morning at the agreed time.
             </p>
 
             <div className="space-y-3 mb-6">
@@ -105,8 +105,8 @@ export default function MonthlyCarLiftPage() {
               <thead>
                 <tr className="border-b border-[#252629] bg-[#161719]">
                   <th className="text-left px-4 py-3 text-xs font-semibold text-[#9ca3af]">Route</th>
-                  <th className="text-right px-4 py-3 text-xs font-semibold text-[#9ca3af]">Monthly (1-way)</th>
-                  <th className="text-right px-4 py-3 text-xs font-semibold text-[#9ca3af] hidden sm:table-cell">Per Day</th>
+                  <th className="text-right px-4 py-3 text-xs font-semibold text-[#9ca3af]">Shared / month</th>
+                  <th className="text-right px-4 py-3 text-xs font-semibold text-[#9ca3af]">Private / month</th>
                   <th className="px-4 py-3 text-right"></th>
                 </tr>
               </thead>
@@ -117,10 +117,10 @@ export default function MonthlyCarLiftPage() {
                       {r.from} → {r.to}
                     </td>
                     <td className="px-4 py-3 text-right font-bold text-[#f59e0b]">
-                      AED {r.monthly}
+                      AED 2,200
                     </td>
-                    <td className="px-4 py-3 text-right text-[#9ca3af] hidden sm:table-cell">
-                      ≈ AED {Math.round(r.monthly / 22)}/day
+                    <td className="px-4 py-3 text-right font-bold text-white">
+                      AED 3,960
                     </td>
                     <td className="px-4 py-3 text-right">
                       <Link href={`/routes/${r.slug}`} className="text-xs text-[#f59e0b] hover:underline">
@@ -132,7 +132,7 @@ export default function MonthlyCarLiftPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-[#6b7280] mt-2">Prices last updated September 2026. Contact for exact quote and two-way pricing.</p>
+          <p className="text-xs text-[#6b7280] mt-2">Flat rates on all routes — 22 working days, one-way. Two-way monthly doubles the one-way rate. Prices last updated October 2026.</p>
         </div>
 
         <FaqAccordion faqs={FAQS} title="Monthly Car Lift — Common Questions" />

@@ -9,7 +9,7 @@ import { IMAGES } from "@/data/images"
 export const metadata: Metadata = {
   title: "About CarLift Sharjah to Dubai",
   description:
-    "CarLift Sharjah to Dubai founded by Taimoor Mughal in 2020. Modern sedan fleet. Verified drivers, ladies-only option, fixed pricing from AED 22/day.",
+    "CarLift Sharjah to Dubai: modern sedan fleet, verified drivers, ladies-only option. Flat rates — AED 100 shared, AED 180 private.",
   alternates: { canonical: `${BASE_URL}/about` },
   openGraph: { url: `${BASE_URL}/about` },
 }

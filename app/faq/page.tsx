@@ -9,7 +9,7 @@ import { BASE_URL } from "@/data/routes"
 export const metadata: Metadata = {
   title: "Car Lift FAQ | Pricing, Booking & Routes",
   description:
-    "Answers to common car lift questions: pricing from AED 22/day, how to book, ladies option, monthly plans, routes covered across Sharjah, Dubai, and UAE.",
+    "Car lift questions answered: shared AED 100 / private AED 180 pricing, booking, ladies option, monthly plans, UAE routes.",
   alternates: { canonical: `${BASE_URL}/faq` },
   openGraph: { url: `${BASE_URL}/faq` },
 }

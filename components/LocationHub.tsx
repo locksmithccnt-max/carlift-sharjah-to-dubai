@@ -86,9 +86,9 @@ export default function LocationHub({ location, faqs = [] }: LocationHubProps) {
                   </div>
                   <div className="text-xs text-[#9ca3af] mb-2">{r.durationEst} · {r.distance}</div>
                   <div className="flex gap-3 text-xs">
-                    <span className="text-[#9ca3af]">From <strong className="text-white">AED {r.priceFrom}</strong>/day</span>
+                    <span className="text-[#9ca3af]">Shared <strong className="text-white">AED 100</strong> · Private <strong className="text-[#f59e0b]">AED 180</strong></span>
                     <span className="text-[#6b7280]">|</span>
-                    <span className="text-[#f59e0b] font-semibold">AED {r.monthlyPrice}/mo</span>
+                    <span className="text-[#6b7280]">per trip</span>
                   </div>
                   <div className="text-xs text-[#f59e0b] mt-2 group-hover:translate-x-1 transition-transform">Details →</div>
                 </Link>

@@ -33,7 +33,7 @@ export const LOCATIONS: LocationData[] = [
     ],
     metaTitle: "Car Lift from Sharjah | Daily Routes to Dubai & Beyond | CarLift Sharjah to Dubai",
     metaDescription:
-      "Book a car lift from Sharjah to Dubai, Business Bay, JLT, DIP, Al Quoz and more. Daily & monthly pricing from AED 25. Ladies option available.",
+      "Book a car lift from Sharjah to Dubai, Business Bay, JLT, DIP, Al Quoz and more. Shared AED 100, private AED 180 per trip on every route. Ladies option available.",
   },
   {
     slug: "dubai",
@@ -55,7 +55,7 @@ export const LOCATIONS: LocationData[] = [
     ],
     metaTitle: "Car Lift Dubai | Daily Commuter Routes from Dubai | CarLift Sharjah to Dubai",
     metaDescription:
-      "Car lift service from Dubai to Sharjah, Ajman, Al Ain and within Dubai. Daily from AED 25, monthly from AED 550. Verified drivers, AC comfort.",
+      "Car lift service from Dubai to Sharjah, Ajman, Al Ain and within Dubai. Shared AED 100, private AED 180 per trip. Verified drivers, AC comfort.",
   },
   {
     slug: "ajman",
@@ -72,7 +72,7 @@ export const LOCATIONS: LocationData[] = [
     routeSlugs: ["ajman-to-dubai", "ajman-to-sharjah", "dubai-to-ajman"],
     metaTitle: "Car Lift Ajman | Daily Routes to Dubai & Sharjah | CarLift Sharjah to Dubai",
     metaDescription:
-      "Car lift from Ajman to Dubai and Sharjah. Daily pricing from AED 20, monthly from AED 420. Ladies-only option available.",
+      "Car lift from Ajman to Dubai and Sharjah. Shared AED 100, private AED 180 per trip. Ladies-only option available.",
   },
   {
     slug: "abu-dhabi",
@@ -89,7 +89,7 @@ export const LOCATIONS: LocationData[] = [
     routeSlugs: [],
     metaTitle: "Car Lift to Abu Dhabi | Dubai–Abu Dhabi Daily Route | CarLift Sharjah to Dubai",
     metaDescription:
-      "Car lift from Dubai to Abu Dhabi from AED 55/day. Monthly packages available. Comfortable, punctual intercity service.",
+      "Car lift from Dubai to Abu Dhabi: shared AED 100, private AED 180 per trip. Monthly packages available. Comfortable, punctual intercity service.",
   },
   {
     slug: "ras-al-khaimah",
@@ -121,7 +121,7 @@ export const LOCATIONS: LocationData[] = [
     routeSlugs: ["dubai-to-al-ain"],
     metaTitle: "Car Lift Al Ain | Dubai to Al Ain Daily Route | CarLift Sharjah to Dubai",
     metaDescription:
-      "Car lift from Dubai to Al Ain from AED 60/day or AED 1,100/month. Early departures to reach Al Ain before 9 AM.",
+      "Car lift from Dubai to Al Ain: shared AED 100, private AED 180 per trip. Early departures to reach Al Ain before 9 AM.",
   },
 ]
 
