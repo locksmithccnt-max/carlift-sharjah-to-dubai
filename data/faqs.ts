@@ -22,7 +22,7 @@ export const GLOBAL_FAQS: FaqItem[] = [
   },
   {
     q: "How much does a monthly car lift cost?",
-    a: "Monthly car lift pricing is flat across all routes. Sharjah–Dubai and every other route: AED 2,200/month shared or AED 3,960/month private, for 22 working days of one-way travel. Two-way monthly packages double the one-way rate.",
+    a: "Monthly car lift pricing is flat across all routes: AED 6,000/month for 22 working days of one-way travel. Two-way packages available on request.",
     category: "pricing",
   },
   {

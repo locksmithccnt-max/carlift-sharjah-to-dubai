@@ -23,7 +23,7 @@ const FAQS = [
   },
   {
     q: "How much is car lift from Sharjah?",
-    a: "Car lift pricing from Sharjah is flat on every destination: shared seat AED 100 per trip, private car AED 180 per trip. Monthly plans (22 working days): AED 2,200 shared, AED 3,960 private.",
+    a: "Car lift pricing from Sharjah is flat on every destination: shared seat AED 100 per trip, private car AED 180 per trip. Monthly plan: AED 6,000 for 22 working days.",
   },
 ]
 

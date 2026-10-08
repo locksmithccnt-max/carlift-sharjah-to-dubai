@@ -28,7 +28,7 @@ const FAQS = [
   },
   {
     q: "How much does pick and drop service cost in Dubai?",
-    a: "Pick and drop from Sharjah to Dubai is AED 100 per trip shared or AED 180 private. Monthly subscriptions (22 working days): AED 2,200 shared, AED 3,960 private.",
+    a: "Pick and drop from Sharjah to Dubai is AED 100 per trip shared or AED 180 private. Monthly plan: AED 6,000 for 22 working days.",
   },
   {
     q: "Do you offer pick and drop for school children?",

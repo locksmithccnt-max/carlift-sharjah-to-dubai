@@ -216,7 +216,7 @@ export default function HomePage() {
                 </div>
               ))}
             </div>
-            <p className="text-xs text-[#6b7280] mt-3">Flat rates on all routes. Monthly plans (22 working days): AED 2,200 shared, AED 3,960 private. Prices last updated October 2026.</p>
+            <p className="text-xs text-[#6b7280] mt-3">Flat rates on all routes. Monthly plan (22 working days): AED 6,000. Prices last updated October 2026.</p>
           </div>
 
           <LeadForm />

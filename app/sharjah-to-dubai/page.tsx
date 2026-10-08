@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const FAQS = [
   {
     q: "How much is a car lift from Sharjah to Dubai?",
-    a: "A daily car lift from Sharjah to Dubai is AED 100 per trip shared or AED 180 private. Monthly packages (22 working days): AED 2,200 shared, AED 3,960 private one-way.",
+    a: "A daily car lift from Sharjah to Dubai is AED 100 per trip shared or AED 180 private. Monthly plan: AED 6,000 for 22 working days.",
   },
   {
     q: "Is there a car lift service from Dubai to Sharjah?",

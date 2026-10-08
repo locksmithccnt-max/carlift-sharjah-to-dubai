@@ -27,7 +27,7 @@ export const ROUTES: RouteData[] = [
     toEmirate: "Dubai",
     priceFrom: 100,
     privatePrice: 180,
-    monthlyPrice: 2200,
+    monthlyPrice: 6000,
     durationEst: "35–50 min",
     distance: "28 km",
     popularPickups: ["Al Nahda", "Muwaileh", "University City", "Al Taawun", "Al Khan"],
@@ -39,7 +39,7 @@ export const ROUTES: RouteData[] = [
     faqs: [
       {
         q: "How much is a car lift from Sharjah to Business Bay?",
-        a: "A shared seat from Sharjah to Business Bay costs AED 100 per trip; a private car is AED 180 per trip. Monthly plans (22 working days): AED 2,200 shared or AED 3,960 private. WhatsApp us to confirm your schedule.",
+        a: "A shared seat from Sharjah to Business Bay costs AED 100 per trip; a private car is AED 180 per trip. Monthly plan: AED 6,000 for 22 working days. WhatsApp us to confirm your schedule.",
       },
       {
         q: "How long does it take to travel from Sharjah to Business Bay?",
@@ -65,7 +65,7 @@ export const ROUTES: RouteData[] = [
     toEmirate: "Dubai",
     priceFrom: 100,
     privatePrice: 180,
-    monthlyPrice: 2200,
+    monthlyPrice: 6000,
     durationEst: "30–55 min",
     distance: "20–35 km",
     popularPickups: ["Al Nahda", "Al Wahda", "Rolla", "Al Qasimiya", "Abu Shagara", "Al Khan", "Butina"],
@@ -77,7 +77,7 @@ export const ROUTES: RouteData[] = [
     faqs: [
       {
         q: "How much is a car lift from Sharjah to Dubai?",
-        a: "A shared seat from Sharjah to Dubai costs AED 100 per trip; a private car is AED 180 per trip. Monthly plans (22 working days): AED 2,200 shared or AED 3,960 private. WhatsApp us to confirm your schedule.",
+        a: "A shared seat from Sharjah to Dubai costs AED 100 per trip; a private car is AED 180 per trip. Monthly plan: AED 6,000 for 22 working days. WhatsApp us to confirm your schedule.",
       },
       {
         q: "Is there a car lift service from Dubai to Sharjah?",
@@ -99,7 +99,7 @@ export const ROUTES: RouteData[] = [
     toEmirate: "Sharjah",
     priceFrom: 100,
     privatePrice: 180,
-    monthlyPrice: 2200,
+    monthlyPrice: 6000,
     durationEst: "30–55 min",
     distance: "20–35 km",
     popularPickups: ["Deira", "Downtown", "Business Bay", "BurJuman", "Al Garhoud"],
@@ -111,7 +111,7 @@ export const ROUTES: RouteData[] = [
     faqs: [
       {
         q: "How much does a car lift from Dubai to Sharjah cost?",
-        a: "A shared seat from Dubai to Sharjah costs AED 100 per trip; a private car is AED 180 per trip. Monthly plans (22 working days): AED 2,200 shared or AED 3,960 private. WhatsApp us to confirm your schedule.",
+        a: "A shared seat from Dubai to Sharjah costs AED 100 per trip; a private car is AED 180 per trip. Monthly plan: AED 6,000 for 22 working days. WhatsApp us to confirm your schedule.",
       },
       {
         q: "What time do Dubai to Sharjah car lifts depart?",
@@ -129,7 +129,7 @@ export const ROUTES: RouteData[] = [
     toEmirate: "Dubai",
     priceFrom: 100,
     privatePrice: 180,
-    monthlyPrice: 2200,
+    monthlyPrice: 6000,
     durationEst: "45–65 min",
     distance: "42 km",
     popularPickups: ["Al Nahda", "Muwaileh", "University City", "Al Taawun"],
@@ -141,7 +141,7 @@ export const ROUTES: RouteData[] = [
     faqs: [
       {
         q: "How much is the car lift from Sharjah to JLT?",
-        a: "A shared seat from Sharjah to JLT (Jumeirah Lake Towers) costs AED 100 per trip; a private car is AED 180 per trip. Monthly plans (22 working days): AED 2,200 shared or AED 3,960 private. WhatsApp us to confirm your schedule.",
+        a: "A shared seat from Sharjah to JLT (Jumeirah Lake Towers) costs AED 100 per trip; a private car is AED 180 per trip. Monthly plan: AED 6,000 for 22 working days. WhatsApp us to confirm your schedule.",
       },
       {
         q: "How long is the car lift journey from Sharjah to JLT?",
@@ -158,7 +158,7 @@ export const ROUTES: RouteData[] = [
     toEmirate: "Dubai",
     priceFrom: 100,
     privatePrice: 180,
-    monthlyPrice: 2200,
+    monthlyPrice: 6000,
     durationEst: "50–70 min",
     distance: "48 km",
     popularPickups: ["Al Nahda", "Muwaileh", "Al Taawun", "Rolla"],
@@ -174,7 +174,7 @@ export const ROUTES: RouteData[] = [
       },
       {
         q: "How much is the car lift from Sharjah to DIP?",
-        a: "A shared seat from Sharjah to Dubai Investment Park (DIP) costs AED 100 per trip; a private car is AED 180 per trip. Monthly plans (22 working days): AED 2,200 shared or AED 3,960 private. WhatsApp us to confirm your schedule.",
+        a: "A shared seat from Sharjah to Dubai Investment Park (DIP) costs AED 100 per trip; a private car is AED 180 per trip. Monthly plan: AED 6,000 for 22 working days. WhatsApp us to confirm your schedule.",
       },
     ],
     keywords: ["car lift sharjah to dip", "sharjah to dubai investment park car lift", "car lift sharjah dip"],
@@ -187,7 +187,7 @@ export const ROUTES: RouteData[] = [
     toEmirate: "Dubai",
     priceFrom: 100,
     privatePrice: 180,
-    monthlyPrice: 2200,
+    monthlyPrice: 6000,
     durationEst: "40–55 min",
     distance: "33 km",
     popularPickups: ["Al Nahda", "Muwaileh", "Rolla", "Al Wahda"],
@@ -199,7 +199,7 @@ export const ROUTES: RouteData[] = [
     faqs: [
       {
         q: "How much is a car lift from Sharjah to Al Quoz?",
-        a: "A shared seat from Sharjah to Al Quoz costs AED 100 per trip; a private car is AED 180 per trip. Monthly plans (22 working days): AED 2,200 shared or AED 3,960 private. WhatsApp us to confirm your schedule.",
+        a: "A shared seat from Sharjah to Al Quoz costs AED 100 per trip; a private car is AED 180 per trip. Monthly plan: AED 6,000 for 22 working days. WhatsApp us to confirm your schedule.",
       },
     ],
     keywords: ["car lift sharjah to al quoz", "sharjah al quoz carpool"],
@@ -212,7 +212,7 @@ export const ROUTES: RouteData[] = [
     toEmirate: "Dubai",
     priceFrom: 100,
     privatePrice: 180,
-    monthlyPrice: 2200,
+    monthlyPrice: 6000,
     durationEst: "40–60 min",
     distance: "37 km",
     popularPickups: ["Al Nahda", "Muwaileh", "Al Taawun", "Rolla"],
@@ -224,7 +224,7 @@ export const ROUTES: RouteData[] = [
     faqs: [
       {
         q: "How much is a car lift from Sharjah to Al Barsha?",
-        a: "A shared seat from Sharjah to Al Barsha costs AED 100 per trip; a private car is AED 180 per trip. Monthly plans (22 working days): AED 2,200 shared or AED 3,960 private. WhatsApp us to confirm your schedule.",
+        a: "A shared seat from Sharjah to Al Barsha costs AED 100 per trip; a private car is AED 180 per trip. Monthly plan: AED 6,000 for 22 working days. WhatsApp us to confirm your schedule.",
       },
     ],
     keywords: ["car lift sharjah to al barsha", "sharjah al barsha car lift"],
@@ -237,7 +237,7 @@ export const ROUTES: RouteData[] = [
     toEmirate: "Dubai",
     priceFrom: 100,
     privatePrice: 180,
-    monthlyPrice: 2200,
+    monthlyPrice: 6000,
     durationEst: "55–80 min",
     distance: "55 km",
     popularPickups: ["Al Nahda", "Muwaileh", "Al Taawun", "Industrial Area"],
@@ -249,7 +249,7 @@ export const ROUTES: RouteData[] = [
     faqs: [
       {
         q: "How much is a car lift from Sharjah to Jebel Ali?",
-        a: "A shared seat from Sharjah to Jebel Ali costs AED 100 per trip; a private car is AED 180 per trip. Monthly plans (22 working days): AED 2,200 shared or AED 3,960 private. WhatsApp us to confirm your schedule.",
+        a: "A shared seat from Sharjah to Jebel Ali costs AED 100 per trip; a private car is AED 180 per trip. Monthly plan: AED 6,000 for 22 working days. WhatsApp us to confirm your schedule.",
       },
       {
         q: "How long is the drive from Sharjah to Jebel Ali?",
@@ -266,7 +266,7 @@ export const ROUTES: RouteData[] = [
     toEmirate: "Dubai",
     priceFrom: 100,
     privatePrice: 180,
-    monthlyPrice: 2200,
+    monthlyPrice: 6000,
     durationEst: "45–65 min",
     distance: "40 km",
     popularPickups: ["Al Nahda", "Muwaileh", "University City", "Al Taawun"],
@@ -291,7 +291,7 @@ export const ROUTES: RouteData[] = [
     toEmirate: "Dubai",
     priceFrom: 100,
     privatePrice: 180,
-    monthlyPrice: 2200,
+    monthlyPrice: 6000,
     durationEst: "45–65 min",
     distance: "40 km",
     popularPickups: ["Al Nahda", "Muwaileh", "University City", "Al Taawun"],
@@ -303,7 +303,7 @@ export const ROUTES: RouteData[] = [
     faqs: [
       {
         q: "How much is a car lift from Sharjah to Dubai Media City?",
-        a: "A shared seat from Sharjah to Dubai Media City costs AED 100 per trip; a private car is AED 180 per trip. Monthly plans (22 working days): AED 2,200 shared or AED 3,960 private. WhatsApp us to confirm your schedule.",
+        a: "A shared seat from Sharjah to Dubai Media City costs AED 100 per trip; a private car is AED 180 per trip. Monthly plan: AED 6,000 for 22 working days. WhatsApp us to confirm your schedule.",
       },
     ],
     keywords: ["car lift sharjah to media city", "sharjah dubai media city car lift"],
@@ -316,7 +316,7 @@ export const ROUTES: RouteData[] = [
     toEmirate: "Dubai",
     priceFrom: 100,
     privatePrice: 180,
-    monthlyPrice: 2200,
+    monthlyPrice: 6000,
     durationEst: "25–40 min",
     distance: "22 km",
     popularPickups: ["Al Nahda", "Muwaileh", "University City", "Halwan Suburb"],
@@ -328,7 +328,7 @@ export const ROUTES: RouteData[] = [
     faqs: [
       {
         q: "How much is a car lift from Sharjah to Silicon Oasis?",
-        a: "A shared seat from Sharjah to Dubai Silicon Oasis costs AED 100 per trip; a private car is AED 180 per trip. Monthly plans (22 working days): AED 2,200 shared or AED 3,960 private. WhatsApp us to confirm your schedule.",
+        a: "A shared seat from Sharjah to Dubai Silicon Oasis costs AED 100 per trip; a private car is AED 180 per trip. Monthly plan: AED 6,000 for 22 working days. WhatsApp us to confirm your schedule.",
       },
     ],
     keywords: ["car lift sharjah to silicon oasis", "sharjah dso car lift", "silicon oasis sharjah carpool"],
@@ -341,7 +341,7 @@ export const ROUTES: RouteData[] = [
     toEmirate: "Dubai",
     priceFrom: 100,
     privatePrice: 180,
-    monthlyPrice: 2200,
+    monthlyPrice: 6000,
     durationEst: "30–45 min",
     distance: "25 km",
     popularPickups: ["DSO Tech Hub", "Cedre Villas", "Silicon Gate"],
@@ -366,7 +366,7 @@ export const ROUTES: RouteData[] = [
     toEmirate: "Dubai",
     priceFrom: 100,
     privatePrice: 180,
-    monthlyPrice: 2200,
+    monthlyPrice: 6000,
     durationEst: "30–50 min",
     distance: "24 km",
     popularPickups: ["China Cluster", "England Cluster", "Spain Cluster", "Persia Cluster"],
@@ -378,7 +378,7 @@ export const ROUTES: RouteData[] = [
     faqs: [
       {
         q: "How much is a car lift from International City to Business Bay?",
-        a: "A shared seat from International City to Business Bay costs AED 100 per trip; a private car is AED 180 per trip. Monthly plans (22 working days): AED 2,200 shared or AED 3,960 private. WhatsApp us to confirm your schedule.",
+        a: "A shared seat from International City to Business Bay costs AED 100 per trip; a private car is AED 180 per trip. Monthly plan: AED 6,000 for 22 working days. WhatsApp us to confirm your schedule.",
       },
     ],
     keywords: ["car lift international city to business bay", "international city business bay carpool"],
@@ -391,7 +391,7 @@ export const ROUTES: RouteData[] = [
     toEmirate: "Dubai",
     priceFrom: 100,
     privatePrice: 180,
-    monthlyPrice: 2200,
+    monthlyPrice: 6000,
     durationEst: "40–65 min",
     distance: "40 km",
     popularPickups: ["Ajman City Centre", "Al Rashidiya", "Al Jurf", "Al Hamidiyah", "Corniche"],
@@ -403,7 +403,7 @@ export const ROUTES: RouteData[] = [
     faqs: [
       {
         q: "How much is a car lift from Ajman to Dubai?",
-        a: "A shared seat from Ajman to Dubai costs AED 100 per trip; a private car is AED 180 per trip. Monthly plans (22 working days): AED 2,200 shared or AED 3,960 private. WhatsApp us to confirm your schedule.",
+        a: "A shared seat from Ajman to Dubai costs AED 100 per trip; a private car is AED 180 per trip. Monthly plan: AED 6,000 for 22 working days. WhatsApp us to confirm your schedule.",
       },
       {
         q: "Do you offer ladies-only car lift from Ajman to Dubai?",
@@ -420,7 +420,7 @@ export const ROUTES: RouteData[] = [
     toEmirate: "Sharjah",
     priceFrom: 100,
     privatePrice: 180,
-    monthlyPrice: 2200,
+    monthlyPrice: 6000,
     durationEst: "20–35 min",
     distance: "18 km",
     popularPickups: ["Ajman City Centre", "Al Rashidiya", "Al Jurf", "Corniche"],
@@ -432,7 +432,7 @@ export const ROUTES: RouteData[] = [
     faqs: [
       {
         q: "How much is a car lift from Ajman to Sharjah?",
-        a: "A shared seat from Ajman to Sharjah costs AED 100 per trip; a private car is AED 180 per trip. Monthly plans (22 working days): AED 2,200 shared or AED 3,960 private. WhatsApp us to confirm your schedule.",
+        a: "A shared seat from Ajman to Sharjah costs AED 100 per trip; a private car is AED 180 per trip. Monthly plan: AED 6,000 for 22 working days. WhatsApp us to confirm your schedule.",
       },
     ],
     keywords: ["car lift ajman to sharjah", "ajman sharjah carpool"],
@@ -445,7 +445,7 @@ export const ROUTES: RouteData[] = [
     toEmirate: "Ajman",
     priceFrom: 100,
     privatePrice: 180,
-    monthlyPrice: 2200,
+    monthlyPrice: 6000,
     durationEst: "40–65 min",
     distance: "40 km",
     popularPickups: ["Deira", "Bur Dubai", "Al Qusais", "Al Nahda Dubai"],
@@ -457,7 +457,7 @@ export const ROUTES: RouteData[] = [
     faqs: [
       {
         q: "How much is a car lift from Dubai to Ajman?",
-        a: "A shared seat from Dubai to Ajman costs AED 100 per trip; a private car is AED 180 per trip. Monthly plans (22 working days): AED 2,200 shared or AED 3,960 private. WhatsApp us to confirm your schedule.",
+        a: "A shared seat from Dubai to Ajman costs AED 100 per trip; a private car is AED 180 per trip. Monthly plan: AED 6,000 for 22 working days. WhatsApp us to confirm your schedule.",
       },
     ],
     keywords: ["car lift dubai to ajman", "dubai ajman carpool", "car lift from dubai to ajman"],
@@ -470,7 +470,7 @@ export const ROUTES: RouteData[] = [
     toEmirate: "Abu Dhabi",
     priceFrom: 100,
     privatePrice: 180,
-    monthlyPrice: 2200,
+    monthlyPrice: 6000,
     durationEst: "90–120 min",
     distance: "130 km",
     popularPickups: ["Deira", "Downtown", "Business Bay", "Al Quoz", "Al Barsha"],
@@ -482,7 +482,7 @@ export const ROUTES: RouteData[] = [
     faqs: [
       {
         q: "How much is a car lift from Dubai to Al Ain?",
-        a: "A shared seat from Dubai to Al Ain costs AED 100 per trip; a private car is AED 180 per trip. Monthly plans (22 working days): AED 2,200 shared or AED 3,960 private. WhatsApp us to confirm your schedule.",
+        a: "A shared seat from Dubai to Al Ain costs AED 100 per trip; a private car is AED 180 per trip. Monthly plan: AED 6,000 for 22 working days. WhatsApp us to confirm your schedule.",
       },
       {
         q: "How long is the drive from Dubai to Al Ain?",
@@ -499,7 +499,7 @@ export const ROUTES: RouteData[] = [
     toEmirate: "RAK",
     priceFrom: 100,
     privatePrice: 180,
-    monthlyPrice: 2200,
+    monthlyPrice: 6000,
     durationEst: "60–90 min",
     distance: "80 km",
     popularPickups: ["Al Nahda", "Muwaileh", "Al Taawun", "Rolla"],
@@ -511,7 +511,7 @@ export const ROUTES: RouteData[] = [
     faqs: [
       {
         q: "How much is a car lift from Sharjah to Ras Al Khaimah?",
-        a: "A shared seat from Sharjah to Ras Al Khaimah costs AED 100 per trip; a private car is AED 180 per trip. Monthly plans (22 working days): AED 2,200 shared or AED 3,960 private. WhatsApp us to confirm your schedule.",
+        a: "A shared seat from Sharjah to Ras Al Khaimah costs AED 100 per trip; a private car is AED 180 per trip. Monthly plan: AED 6,000 for 22 working days. WhatsApp us to confirm your schedule.",
       },
     ],
     keywords: ["car lift sharjah to ras al khaimah", "sharjah rak car lift", "sharjah ras al khaimah carpool"],
@@ -524,7 +524,7 @@ export const ROUTES: RouteData[] = [
     toEmirate: "Sharjah",
     priceFrom: 100,
     privatePrice: 180,
-    monthlyPrice: 2200,
+    monthlyPrice: 6000,
     durationEst: "25–45 min",
     distance: "22 km",
     popularPickups: ["Deira", "Al Qusais", "Al Nahda Dubai", "Airport Terminal 1/2/3"],
@@ -540,7 +540,7 @@ export const ROUTES: RouteData[] = [
       },
       {
         q: "How much is the car lift from Dubai to SAIF Zone?",
-        a: "A shared seat from Dubai to Sharjah Airport / SAIF Zone costs AED 100 per trip; a private car is AED 180 per trip. Monthly plans (22 working days): AED 2,200 shared or AED 3,960 private. WhatsApp us to confirm your schedule.",
+        a: "A shared seat from Dubai to Sharjah Airport / SAIF Zone costs AED 100 per trip; a private car is AED 180 per trip. Monthly plan: AED 6,000 for 22 working days. WhatsApp us to confirm your schedule.",
       },
     ],
     keywords: ["car lift dubai to saif zone", "dubai sharjah saif zone car lift", "car lift saif zone"],
@@ -559,8 +559,7 @@ export function getRoutesByEmirate(emirate: string): RouteData[] {
 
 export const SHARED_PRICE = 100
 export const PRIVATE_PRICE = 180
-export const SHARED_MONTHLY = 2200
-export const PRIVATE_MONTHLY = 3960
+export const MONTHLY_PRICE = 6000
 export const WHATSAPP_NUMBER = "971521488011"
 export const PHONE_NUMBER = "+971 52 148 8011"
 export const BUSINESS_NAME = "CarLift Sharjah to Dubai"
